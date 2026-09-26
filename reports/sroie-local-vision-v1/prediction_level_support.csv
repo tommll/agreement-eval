@@ -1,0 +1,5 @@
+config_id,n,accuracy,auc_support_frac,p_correct_when_all_others_agree,p_correct_when_none_agree
+gemma4-e4b-detailed-image,48,0.5833333333333334,1.0,1.0,0.0
+qwen27b-detailed-image,48,0.9375,0.9666666666666667,1.0,
+qwen4b-detailed-both,48,0.8958333333333334,0.9953488372093023,1.0,0.0
+qwen4b-detailed-image,48,0.875,0.9920634920634921,1.0,0.0

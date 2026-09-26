@@ -1,0 +1,43 @@
+# Offline demo: synthetic receipts + mock models. No API key, no network.
+#
+# The mock configs are deliberately rigged: `mock-a` and `mock-b` share a
+# cluster, so when they err they produce the *same* wrong value. That is the
+# failure mode the study is about - two configs agreeing does not make them
+# right, and the analysis should show it. On top of that, `systematic_rate` of
+# fields are "ambiguous": every config reads the same wrong value there, so
+# some unanimous items are unanimously wrong.
+run_id: demo-v1
+dataset: synthetic
+schema: synthetic
+split: demo
+limit: 200
+concurrency: 8
+notes: "Offline smoke run with correlated mock errors"
+
+ingest:
+  seed: 7
+
+configs:
+  - id: mock-a
+    provider: mock
+    model: mock-1
+    prompt: detailed
+    params: {error_rate: 0.14, miss_rate: 0.05, halluc_rate: 0.08, cluster: shared, systematic_rate: 0.03, seed: 17}
+  - id: mock-b
+    provider: mock
+    model: mock-1
+    prompt: terse
+    params: {error_rate: 0.16, miss_rate: 0.06, halluc_rate: 0.10, cluster: shared, systematic_rate: 0.03, seed: 17}
+  - id: mock-c
+    provider: mock
+    model: mock-2
+    prompt: detailed
+    params: {error_rate: 0.12, miss_rate: 0.04, halluc_rate: 0.05, cluster: solo-c, systematic_rate: 0.03, seed: 17}
+  - id: mock-d
+    provider: mock
+    model: mock-3
+    prompt: evidence
+    params: {error_rate: 0.09, miss_rate: 0.08, halluc_rate: 0.03, cluster: solo-d, systematic_rate: 0.03, seed: 17}
+
+judge:
+  enabled: false   # the mock provider has no judge; see experiments/sroie.yaml

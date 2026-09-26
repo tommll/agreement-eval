@@ -1,0 +1,126 @@
+ -- 1. Documents
+
+  SELECT dataset, split, count(*) AS docs, count(image_path) AS with_image
+  FROM documents
+  GROUP BY dataset, split;
+
+  SELECT doc_id, jsonb_pretty(gold) AS gold, image_path, ocr_text
+  FROM documents
+  WHERE doc_id like '%X00016469670%'
+  -- WHERE doc_id = 'sroie/test/X51005230648';
+
+  -- 2. Runs and configs
+
+  SELECT run_id, dataset, schema_name, notes, created_at
+  FROM runs
+  ORDER BY created_at;
+
+  SELECT config_id, provider, model, prompt_variant, input_mode, prompt_version, params
+  FROM configs
+  WHERE run_id = 'sroie-local-v1';
+
+  SELECT *
+  FROM configs
+  -- WHERE run_id = 'sroie-local-v1';
+  -- WHERE input
+
+  -- 3. Extractions
+
+  SELECT config_id,
+         count(*) AS calls,
+         count(*) FILTER (WHERE status = 'error') AS errors,
+         round(avg(latency_ms) / 1000.0, 1) AS avg_s,
+         sum(input_tokens) AS in_tok,
+         sum(output_tokens) AS out_tok
+  FROM extractions
+  WHERE run_id = 'sroie-local-v1'
+  GROUP BY config_id;
+
+  SELECT split_part(doc_id, '/', 3) AS doc, status, latency_ms / 1000 AS s,
+         raw_output -> 'values' AS values, raw_output -> 'timings' AS timings
+  FROM extractions
+  WHERE run_id = 'sroie-local-v1' AND config_id = 'qwen4b-detailed-t0'
+  ORDER BY doc_id;
+
+  SELECT config_id, split_part(doc_id, '/', 3) AS doc, error
+  FROM extractions
+  WHERE run_id = 'sroie-local-v1' AND status = 'error';
+
+  SELECT *
+  FROM extractions
+  WHERE doc_id = 'sroie/test/X51005230648' AND run_id = 'sroie-local-vision-v1';
+
+  -- 4. Field outputs
+
+  SELECT split_part(doc_id, '/', 3) AS doc, field, field_type,
+         value_raw, value_norm, is_null, evidence
+  FROM field_outputs
+  WHERE run_id = 'sroie-local-v1' AND config_id = 'qwen4b-detailed-t0'
+  ORDER BY doc_id, field;
+
+  SELECT split_part(doc_id, '/', 3) AS doc, field, value_raw, value_norm, gold_raw
+  FROM field_predictions
+  WHERE run_id = 'sroie-local-v1' AND config_id = 'qwen4b-detailed-t0' AND field = 'address'
+  ORDER BY doc_id;
+
+  SELECT field, config_id, value_raw, gold_raw
+  FROM field_predictions
+  WHERE doc_id like '%X00016469670' AND run_id = 'sroie-local-vision-v1'
+  ORDER BY field, config_id;
+
+	
+
+  5. Scoring (verdict per field)
+
+  SELECT split_part(p.doc_id, '/', 3) AS doc, p.field, p.value_norm, p.gold_norm, p.correct, p.error_kind
+  FROM analysis_results a,
+       jsonb_to_recordset(a.payload) AS p(doc_id text, field text, config_id text,
+                                          value_norm text, gold_norm text,
+                                          correct boolean, error_kind text)
+  WHERE a.run_id = 'sroie-local-v1' AND a.name = 'predictions'
+    AND p.config_id = 'qwen4b-detailed-t0'
+  ORDER BY p.doc_id, p.field;
+
+ORDER BY p.doc_id, p.field;
+
+SELECT split_part(p.doc_id, '/', 3) AS doc, p.field, p.error_kind, p.value_raw, p.gold_raw
+FROM analysis_results a,
+     jsonb_to_recordset(a.payload) AS p(doc_id text, field text, config_id text,
+                                        value_raw text, gold_raw text,
+                                        correct boolean, error_kind text)
+WHERE a.run_id = 'sroie-local-v1' AND a.name = 'predictions'
+  AND p.config_id = 'qwen4b-detailed-t0' AND NOT p.correct
+ORDER BY p.field, p.doc_id;
+
+6. Accuracy
+
+SELECT p.config_id, count(*) AS n, sum(p.correct::int) AS correct,
+       round(avg(p.correct::int), 3) AS accuracy
+FROM analysis_results a,
+     jsonb_to_recordset(a.payload) AS p(config_id text, correct boolean)
+WHERE a.run_id = 'sroie-local-v1' AND a.name = 'predictions'
+GROUP BY p.config_id
+ORDER BY p.config_id;
+
+SELECT p.config_id, p.field, sum(p.correct::int) || '/' || count(*) AS correct
+FROM analysis_results a,
+     jsonb_to_recordset(a.payload) AS p(config_id text, field text, correct boolean)
+WHERE a.run_id = 'sroie-local-v1' AND a.name = 'predictions'
+GROUP BY p.config_id, p.field
+ORDER BY p.config_id, p.field;
+
+SELECT name
+FROM analysis_results
+WHERE run_id = 'sroie-local-v1'
+ORDER BY name;
+
+SELECT jsonb_pretty(payload)
+FROM analysis_results
+WHERE run_id = 'sroie-local-v1' AND name = 'accuracy_per_config';
+
+7. Judge verdicts
+
+SELECT kind, field, left_config, right_config, left_value, right_value, equivalent, confidence
+FROM judgments
+WHERE run_id = 'sroie-local-v1'
+ORDER BY doc_id, field;

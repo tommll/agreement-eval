@@ -1,0 +1,7 @@
+parameter,value
+qwen4b-detailed-t08|p(null->null),0.49999708153652206
+qwen4b-detailed-t08|p(pop->pop),0.49999986102351157
+qwen4b-detailed-t0|p(null->null),0.49999860982740846
+qwen4b-detailed-t0|p(pop->pop),0.9400002152855886
+qwen4b-terse-t0|p(null->null),0.4999996412642551
+qwen4b-terse-t0|p(pop->pop),0.4347825516982553

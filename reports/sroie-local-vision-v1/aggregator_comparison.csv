@@ -1,0 +1,10 @@
+method,n,accuracy,acc_populated,acc_null
+dawid_skene_binary (null/populated only),48,1.0,1.0,
+majority_vote (null/populated only),48,1.0,1.0,
+dawid_skene_one_coin,48,0.9375,0.9375,
+single:qwen27b-detailed-image,48,0.9375,0.9375,
+majority_vote,48,0.9375,0.9375,
+oracle: any config correct,48,0.9375,0.9375,
+single:qwen4b-detailed-both,48,0.8958333333333334,0.8958333333333334,
+single:qwen4b-detailed-image,48,0.875,0.875,
+single:gemma4-e4b-detailed-image,48,0.5833333333333334,0.5833333333333334,

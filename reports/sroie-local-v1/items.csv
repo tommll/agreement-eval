@@ -1,0 +1,49 @@
+doc_id,field,field_type,gold_label,gold_populated,n_raters,n_pairs,n_agreeing_pairs,pairwise_agreement,pairwise_agreement_populated,unanimous,n_distinct,consensus_label,consensus_support,consensus_frac,entropy,n_null,null_frac,all_null,any_null,consensus_correct,jaccard_agreement,consensus_jaccard_gold,consensus_correct_jaccard,any_correct,n_correct
+sroie/test/X00016469670,address,address,no 2 and 4 jln bayu 4 bdr seri alam b1750 masai johor,True,3,3,1,0.3333333333333333,1.0,False,2,no 2 and 4 bdr seri alam 81750 masai,2,0.6666666666666666,0.9182958340544894,1,0.3333333333333333,False,True,False,0.3333333333333333,0.6153846153846154,False,False,0
+sroie/test/X00016469670,company,org,ojc marketing,True,3,3,1,0.3333333333333333,0.3333333333333333,False,2,ojc marketing,2,0.6666666666666666,0.9182958340544894,0,0.0,False,False,True,0.3333333333333333,1.0,True,True,2
+sroie/test/X00016469670,date,date,2019-01-15,True,3,3,3,1.0,1.0,True,1,2019-01-15,3,1.0,0.0,0,0.0,False,False,True,1.0,1.0,True,True,3
+sroie/test/X00016469670,total,money,193.00,True,3,3,3,1.0,1.0,True,1,193.00,3,1.0,0.0,0,0.0,False,False,True,1.0,1.0,True,True,3
+sroie/test/X00016469671,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,3,3,0,0.0,0.0,False,3,co,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.0,0.0,False,False,0
+sroie/test/X00016469671,company,org,ojc marketing,True,3,3,0,0.0,0.0,False,3,coan,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.0,0.0,False,True,1
+sroie/test/X00016469671,date,date,2019-01-02,True,3,3,1,0.3333333333333333,,False,2,∅,2,0.6666666666666666,0.9182958340544894,2,0.6666666666666666,False,True,False,0.3333333333333333,0.0,False,True,1
+sroie/test/X00016469671,total,money,170.00,True,3,3,1,0.3333333333333333,,False,2,∅,2,0.6666666666666666,0.9182958340544894,2,0.6666666666666666,False,True,False,0.3333333333333333,0.0,False,True,1
+sroie/test/X51005200931,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,3,3,0,0.0,0.0,False,3,company name,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.0,0.0,False,True,1
+sroie/test/X51005200931,company,org,perniagaan zheng hui,True,3,3,0,0.0,0.0,False,3,gogiant engineering m,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.0,0.0,False,False,0
+sroie/test/X51005200931,date,date,2018-02-09,True,3,3,1,0.3333333333333333,,False,2,∅,2,0.6666666666666666,0.9182958340544894,2,0.6666666666666666,False,True,False,0.3333333333333333,0.0,False,True,1
+sroie/test/X51005200931,total,money,436.20,True,3,3,1,0.3333333333333333,,False,2,∅,2,0.6666666666666666,0.9182958340544894,2,0.6666666666666666,False,True,False,0.3333333333333333,0.0,False,True,1
+sroie/test/X51005230605,address,address,km 458 4 bkt lanjan utara l raya utara selatan sg buloh 47000 sungai bul,True,2,1,0,0.0,,False,2,km 458 4 bkt lanjan utara l raya utara selatan 47000 sungai bul,1,0.5,1.0,1,0.5,False,True,False,0.0,0.8571428571428571,True,False,0
+sroie/test/X51005230605,company,org,petron bkt lanjan sb,True,2,1,0,0.0,,False,2,petron bkt lanjan sb,1,0.5,1.0,1,0.5,False,True,True,0.0,1.0,True,True,1
+sroie/test/X51005230605,date,date,2018-02-01,True,2,1,0,0.0,,False,2,2018-02-01,1,0.5,1.0,1,0.5,False,True,True,0.0,1.0,True,True,1
+sroie/test/X51005230605,total,money,4.90,True,2,1,0,0.0,,False,2,4.90,1,0.5,1.0,1,0.5,False,True,True,0.0,1.0,True,True,1
+sroie/test/X51005230616,address,address,level 6 bangunan th damansara uptown3 no 3 jln ss21 39 47400 petaling jaya selangor,True,2,1,0,0.0,0.0,False,2,6101 n 28th st phoenix az 85017 usa,1,0.5,1.0,0,0.0,False,False,False,0.0,0.0,False,False,0
+sroie/test/X51005230616,company,org,gerbang alaf restaurants,True,2,1,0,0.0,0.0,False,2,gerbang alaf restaurants,1,0.5,1.0,0,0.0,False,False,True,0.0,1.0,True,True,1
+sroie/test/X51005230616,date,date,2018-01-18,True,2,1,0,0.0,0.0,False,2,2018-01-18,1,0.5,1.0,0,0.0,False,False,True,0.0,1.0,True,True,1
+sroie/test/X51005230616,total,money,38.90,True,2,1,0,0.0,0.0,False,2,22.89,1,0.5,1.0,0,0.0,False,False,False,0.0,0.0,False,True,1
+sroie/test/X51005230621,address,address,lot 13 jln ipoh kg batu 30 ulu yam lama 44300 btg kali selangor,True,3,3,0,0.0,0.0,False,3,lot 13 kg batu 30 44300 btg kali,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.0,0.5714285714285714,False,False,0
+sroie/test/X51005230621,company,org,sin lianhap,True,3,3,0,0.0,0.0,False,3,coconey,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.0,0.0,False,True,1
+sroie/test/X51005230621,date,date,2018-02-05,True,3,3,1,0.3333333333333333,,False,2,∅,2,0.6666666666666666,0.9182958340544894,2,0.6666666666666666,False,True,False,0.3333333333333333,0.0,False,True,1
+sroie/test/X51005230621,total,money,7.30,True,3,3,0,0.0,0.0,False,3,17.96,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.0,0.0,False,True,1
+sroie/test/X51005230648,address,address,47 jln meranti 1 sek 3 bdr utama batang kali 44300 batang kali selangor,True,3,3,0,0.0,0.0,False,3,47 bdr utama batang kali 44300 batang kali,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.0,0.5,False,False,0
+sroie/test/X51005230648,company,org,cross channel network,True,3,3,0,0.0,0.0,False,3,c,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.0,0.0,False,True,1
+sroie/test/X51005230648,date,date,2018-01-29,True,3,3,1,0.3333333333333333,,False,2,∅,2,0.6666666666666666,0.9182958340544894,2,0.6666666666666666,False,True,False,0.3333333333333333,0.0,False,True,1
+sroie/test/X51005230648,total,money,6.35,True,3,3,1,0.3333333333333333,,False,2,∅,2,0.6666666666666666,0.9182958340544894,2,0.6666666666666666,False,True,False,0.3333333333333333,0.0,False,False,0
+sroie/test/X51005230657,address,address,47 jln meranti 1 sek 3 bdr utama batang kali 44300 batang kali selangor,True,3,3,0,0.0,0.0,False,3,47 bdr utama batang kali 44300 batang kali,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.2222222222222222,0.5,False,False,0
+sroie/test/X51005230657,company,org,cross channel network,True,3,3,1,0.3333333333333333,1.0,False,2,cross channel network,2,0.6666666666666666,0.9182958340544894,1,0.3333333333333333,False,True,True,0.3333333333333333,1.0,True,True,2
+sroie/test/X51005230657,date,date,2017-12-31,True,3,3,1,0.3333333333333333,1.0,False,2,2017-12-31,2,0.6666666666666666,0.9182958340544894,1,0.3333333333333333,False,True,True,0.3333333333333333,1.0,True,True,2
+sroie/test/X51005230657,total,money,7.95,True,3,3,1,0.3333333333333333,1.0,False,2,7.95,2,0.6666666666666666,0.9182958340544894,1,0.3333333333333333,False,True,True,0.3333333333333333,1.0,True,True,2
+sroie/test/X51005230659,address,address,no 5 7 jln mahagoni 7 1 sekysen 4 bdr utama 44300 batang kali selangor,True,2,1,0,0.0,,False,2,no 5 7 sekysen 4 batang kali,1,0.5,1.0,1,0.5,False,True,False,0.0,0.5,False,False,0
+sroie/test/X51005230659,company,org,swc enterprise,True,2,1,0,0.0,,False,2,swc enterprise,1,0.5,1.0,1,0.5,False,True,True,0.0,1.0,True,True,1
+sroie/test/X51005230659,date,date,2018-01-08,True,2,1,0,0.0,,False,2,2018-01-08,1,0.5,1.0,1,0.5,False,True,True,0.0,1.0,True,True,1
+sroie/test/X51005230659,total,money,8.00,True,2,1,0,0.0,,False,2,8.00,1,0.5,1.0,1,0.5,False,True,True,0.0,1.0,True,True,1
+sroie/test/X51005268275,address,address,no 28 jln astana 1c bdr bukit raja 41050 klang selangor d e malaysia,True,3,3,0,0.0,0.0,False,3,278 80,1,0.3333333333333333,0.9999999999999998,0,0.0,False,False,False,0.0,0.0,False,False,0
+sroie/test/X51005268275,company,org,lightroom gallery,True,3,3,0,0.0,0.0,False,3,332,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.0,0.0,False,True,1
+sroie/test/X51005268275,date,date,2017-11-20,True,3,3,1,0.3333333333333333,,False,2,∅,2,0.6666666666666666,0.9182958340544894,2,0.6666666666666666,False,True,False,0.3333333333333333,0.0,False,True,1
+sroie/test/X51005268275,total,money,278.80,True,3,3,1,0.3333333333333333,1.0,False,2,278.80,2,0.6666666666666666,0.9182958340544894,1,0.3333333333333333,False,True,True,0.3333333333333333,1.0,True,True,2
+sroie/test/X51005268408,address,address,lot p t 2811 jln angsa tmn berkeley 41150 klang selangor 1413 setia alam 2,True,3,3,0,0.0,0.0,False,3,123 main st city state 12345,1,0.3333333333333333,0.9999999999999998,0,0.0,False,False,False,0.0,0.0,False,False,0
+sroie/test/X51005268408,company,org,99 speed mart s b,True,3,3,0,0.0,0.0,False,3,company pp,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.0,0.0,False,False,0
+sroie/test/X51005268408,date,date,2017-11-20,True,3,3,1,0.3333333333333333,,False,2,∅,2,0.6666666666666666,0.9182958340544894,2,0.6666666666666666,False,True,False,0.3333333333333333,0.0,False,False,0
+sroie/test/X51005268408,total,money,169.80,True,3,3,1,0.3333333333333333,,False,2,∅,2,0.6666666666666666,0.9182958340544894,2,0.6666666666666666,False,True,False,0.3333333333333333,0.0,False,False,0
+sroie/test/X51005288570,address,address,riverwalk village batu 3 jln ipoh 51200 kl,True,3,3,0,0.0,0.0,False,3,123 main st,1,0.3333333333333333,0.9999999999999998,0,0.0,False,False,False,0.0,0.0,False,False,0
+sroie/test/X51005288570,company,org,secure parking corporation s b,True,3,3,1,0.3333333333333333,0.3333333333333333,False,2,merchant,2,0.6666666666666666,0.9182958340544894,0,0.0,False,False,False,0.3333333333333333,0.0,False,False,0
+sroie/test/X51005288570,date,date,2018-03-23,True,3,3,1,0.3333333333333333,1.0,False,2,2023-10-15,2,0.6666666666666666,0.9182958340544894,1,0.3333333333333333,False,True,False,0.3333333333333333,0.0,False,False,0
+sroie/test/X51005288570,total,money,1.00,True,3,3,0,0.0,0.0,False,3,150.00,1,0.3333333333333333,0.9999999999999998,1,0.3333333333333333,False,True,False,0.0,0.0,False,False,0

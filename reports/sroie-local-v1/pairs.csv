@@ -1,0 +1,131 @@
+doc_id,field,field_type,config_a,config_b,label_a,label_b,value_a,value_b,exact_agree,jaccard,both_null,one_null
+sroie/test/X00016469670,address,address,qwen4b-detailed-t0,qwen4b-detailed-t08,no 2 and 4 bdr seri alam 81750 masai,no 2 and 4 bdr seri alam 81750 masai,NO 2 & 4 BANDAR SERI ALAM 81750 MASAI,NO 2 & 4 BANDAR SERI ALAM 81750 MASAI,True,1.0,False,False
+sroie/test/X00016469670,address,address,qwen4b-detailed-t0,qwen4b-terse-t0,no 2 and 4 bdr seri alam 81750 masai,∅,NO 2 & 4 BANDAR SERI ALAM 81750 MASAI,,False,0.0,False,True
+sroie/test/X00016469670,address,address,qwen4b-detailed-t08,qwen4b-terse-t0,no 2 and 4 bdr seri alam 81750 masai,∅,NO 2 & 4 BANDAR SERI ALAM 81750 MASAI,,False,0.0,False,True
+sroie/test/X00016469670,company,org,qwen4b-detailed-t0,qwen4b-detailed-t08,ojc marketing,ojc marketing,OJC MARKETING SDN BHD,OJC MARKETING SDN BHD,True,1.0,False,False
+sroie/test/X00016469670,company,org,qwen4b-detailed-t0,qwen4b-terse-t0,ojc marketing,the peak quarry works,OJC MARKETING SDN BHD,THE PEAK QUARRY WORKS,False,0.0,False,False
+sroie/test/X00016469670,company,org,qwen4b-detailed-t08,qwen4b-terse-t0,ojc marketing,the peak quarry works,OJC MARKETING SDN BHD,THE PEAK QUARRY WORKS,False,0.0,False,False
+sroie/test/X00016469670,date,date,qwen4b-detailed-t0,qwen4b-detailed-t08,2019-01-15,2019-01-15,15/01/2019,15/01/2019,True,1.0,False,False
+sroie/test/X00016469670,date,date,qwen4b-detailed-t0,qwen4b-terse-t0,2019-01-15,2019-01-15,15/01/2019,15/01/2019,True,1.0,False,False
+sroie/test/X00016469670,date,date,qwen4b-detailed-t08,qwen4b-terse-t0,2019-01-15,2019-01-15,15/01/2019,15/01/2019,True,1.0,False,False
+sroie/test/X00016469670,total,money,qwen4b-detailed-t0,qwen4b-detailed-t08,193.00,193.00,193.00,193.00,True,1.0,False,False
+sroie/test/X00016469670,total,money,qwen4b-detailed-t0,qwen4b-terse-t0,193.00,193.00,193.00,"{""total"": 193.00}",True,1.0,False,False
+sroie/test/X00016469670,total,money,qwen4b-detailed-t08,qwen4b-terse-t0,193.00,193.00,193.00,"{""total"": 193.00}",True,1.0,False,False
+sroie/test/X00016469671,address,address,qwen4b-detailed-t0,qwen4b-detailed-t08,no 2 and 4 bdr seri alam 81750 masai,∅,NO 2 & 4 BANDAR SERI ALAM 81750 MASAI,,False,0.0,False,True
+sroie/test/X00016469671,address,address,qwen4b-detailed-t0,qwen4b-terse-t0,no 2 and 4 bdr seri alam 81750 masai,co,NO 2 & 4 BANDAR SERI ALAM 81750 MASAI,co,False,0.0,False,False
+sroie/test/X00016469671,address,address,qwen4b-detailed-t08,qwen4b-terse-t0,∅,co,,co,False,0.0,False,True
+sroie/test/X00016469671,company,org,qwen4b-detailed-t0,qwen4b-detailed-t08,ojc marketing,∅,OJC MARKETING SDN BHD,,False,0.0,False,True
+sroie/test/X00016469671,company,org,qwen4b-detailed-t0,qwen4b-terse-t0,ojc marketing,coan,OJC MARKETING SDN BHD,coan,False,0.0,False,False
+sroie/test/X00016469671,company,org,qwen4b-detailed-t08,qwen4b-terse-t0,∅,coan,,coan,False,0.0,False,True
+sroie/test/X00016469671,date,date,qwen4b-detailed-t0,qwen4b-detailed-t08,2019-01-02,∅,02/01/2019,,False,0.0,False,True
+sroie/test/X00016469671,date,date,qwen4b-detailed-t0,qwen4b-terse-t0,2019-01-02,∅,02/01/2019,co,False,0.0,False,True
+sroie/test/X00016469671,date,date,qwen4b-detailed-t08,qwen4b-terse-t0,∅,∅,,co,True,1.0,True,False
+sroie/test/X00016469671,total,money,qwen4b-detailed-t0,qwen4b-detailed-t08,170.00,∅,170.00,"-//ivalency, never inferred a plausible value, and never carry a value over from a different field.",False,0.0,False,True
+sroie/test/X00016469671,total,money,qwen4b-detailed-t0,qwen4b-terse-t0,170.00,∅,170.00,co,False,0.0,False,True
+sroie/test/X00016469671,total,money,qwen4b-detailed-t08,qwen4b-terse-t0,∅,∅,"-//ivalency, never inferred a plausible value, and never carry a value over from a different field.",co,True,1.0,True,False
+sroie/test/X51005200931,address,address,qwen4b-detailed-t0,qwen4b-detailed-t08,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,company name,NO.59 JALAN PERMAS 9/5 BANDAR BARU PERMAS JAYA 81750 JOHOR BAHRU,Company name,False,0.0,False,False
+sroie/test/X51005200931,address,address,qwen4b-detailed-t0,qwen4b-terse-t0,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,∅,NO.59 JALAN PERMAS 9/5 BANDAR BARU PERMAS JAYA 81750 JOHOR BAHRU,,False,0.0,False,True
+sroie/test/X51005200931,address,address,qwen4b-detailed-t08,qwen4b-terse-t0,company name,∅,Company name,,False,0.0,False,True
+sroie/test/X51005200931,company,org,qwen4b-detailed-t0,qwen4b-detailed-t08,gogiant engineering m,think company name,GOGIANT ENGINEERING (M) SDN BHD,].   <think>:-: Company name::,False,0.0,False,False
+sroie/test/X51005200931,company,org,qwen4b-detailed-t0,qwen4b-terse-t0,gogiant engineering m,∅,GOGIANT ENGINEERING (M) SDN BHD,,False,0.0,False,True
+sroie/test/X51005200931,company,org,qwen4b-detailed-t08,qwen4b-terse-t0,think company name,∅,].   <think>:-: Company name::,,False,0.0,False,True
+sroie/test/X51005200931,date,date,qwen4b-detailed-t0,qwen4b-detailed-t08,2018-02-09,∅,09/02/2018,]:,False,0.0,False,True
+sroie/test/X51005200931,date,date,qwen4b-detailed-t0,qwen4b-terse-t0,2018-02-09,∅,09/02/2018,,False,0.0,False,True
+sroie/test/X51005200931,date,date,qwen4b-detailed-t08,qwen4b-terse-t0,∅,∅,]:,,True,1.0,True,False
+sroie/test/X51005200931,total,money,qwen4b-detailed-t0,qwen4b-detailed-t08,436.20,∅,436.20,Total amount,False,0.0,False,True
+sroie/test/X51005200931,total,money,qwen4b-detailed-t0,qwen4b-terse-t0,436.20,∅,436.20,,False,0.0,False,True
+sroie/test/X51005200931,total,money,qwen4b-detailed-t08,qwen4b-terse-t0,∅,∅,Total amount,,True,1.0,True,False
+sroie/test/X51005230605,address,address,qwen4b-detailed-t0,qwen4b-terse-t0,km 458 4 bkt lanjan utara l raya utara selatan 47000 sungai bul,∅,KM 458.4 BKT LANJAN UTARA L/RAYA UTARA SELATAN 47000 SUNGAI BUL,,False,0.0,False,True
+sroie/test/X51005230605,company,org,qwen4b-detailed-t0,qwen4b-terse-t0,petron bkt lanjan sb,∅,PETRON BKT LANJAN SB,,False,0.0,False,True
+sroie/test/X51005230605,date,date,qwen4b-detailed-t0,qwen4b-terse-t0,2018-02-01,∅,01/02/2018,,False,0.0,False,True
+sroie/test/X51005230605,total,money,qwen4b-detailed-t0,qwen4b-terse-t0,4.90,∅,4.90,,False,0.0,False,True
+sroie/test/X51005230616,address,address,qwen4b-detailed-t0,qwen4b-detailed-t08,level 6 no 3 selangor,6101 n 28th st phoenix az 85017 usa,LEVEL 6 NO.3 SELANGOR,"6101 N. 28th St, Phoenix, AZ 85017, USA",False,0.0,False,False
+sroie/test/X51005230616,company,org,qwen4b-detailed-t0,qwen4b-detailed-t08,gerbang alaf restaurants,zara,GERBANG ALAF RESTAURANTS SDN BHD,Zara,False,0.0,False,False
+sroie/test/X51005230616,date,date,qwen4b-detailed-t0,qwen4b-detailed-t08,2018-01-18,2024-09-16,18/01/2018,2024-09-16,False,0.0,False,False
+sroie/test/X51005230616,total,money,qwen4b-detailed-t0,qwen4b-detailed-t08,38.90,22.89,38.90,22.89,False,0.0,False,False
+sroie/test/X51005230621,address,address,qwen4b-detailed-t0,qwen4b-detailed-t08,lot 13 kg batu 30 44300 btg kali,∅,LOT 13 KG BATU 30 44300 BTG KALI,,False,0.0,False,True
+sroie/test/X51005230621,address,address,qwen4b-detailed-t0,qwen4b-terse-t0,lot 13 kg batu 30 44300 btg kali,neney,LOT 13 KG BATU 30 44300 BTG KALI,neney,False,0.0,False,False
+sroie/test/X51005230621,address,address,qwen4b-detailed-t08,qwen4b-terse-t0,∅,neney,,neney,False,0.0,False,True
+sroie/test/X51005230621,company,org,qwen4b-detailed-t0,qwen4b-detailed-t08,sin lianhap,∅,SIN LIANHAP SDN BHD,,False,0.0,False,True
+sroie/test/X51005230621,company,org,qwen4b-detailed-t0,qwen4b-terse-t0,sin lianhap,coconey,SIN LIANHAP SDN BHD,coconey,False,0.0,False,False
+sroie/test/X51005230621,company,org,qwen4b-detailed-t08,qwen4b-terse-t0,∅,coconey,,coconey,False,0.0,False,True
+sroie/test/X51005230621,date,date,qwen4b-detailed-t0,qwen4b-detailed-t08,2018-02-05,∅,05/02/2018,:,False,0.0,False,True
+sroie/test/X51005230621,date,date,qwen4b-detailed-t0,qwen4b-terse-t0,2018-02-05,∅,05/02/2018,co,False,0.0,False,True
+sroie/test/X51005230621,date,date,qwen4b-detailed-t08,qwen4b-terse-t0,∅,∅,:,co,True,1.0,True,False
+sroie/test/X51005230621,total,money,qwen4b-detailed-t0,qwen4b-detailed-t08,7.30,17.96,7.30,17.96,False,0.0,False,False
+sroie/test/X51005230621,total,money,qwen4b-detailed-t0,qwen4b-terse-t0,7.30,∅,7.30,co,False,0.0,False,True
+sroie/test/X51005230621,total,money,qwen4b-detailed-t08,qwen4b-terse-t0,17.96,∅,17.96,co,False,0.0,False,True
+sroie/test/X51005230648,address,address,qwen4b-detailed-t0,qwen4b-detailed-t08,47 bdr utama batang kali 44300 batang kali,∅,47 BANDAR UTAMA BATANG KALI 44300 BATANG KALI,,False,0.0,False,True
+sroie/test/X51005230648,address,address,qwen4b-detailed-t0,qwen4b-terse-t0,47 bdr utama batang kali 44300 batang kali,d,47 BANDAR UTAMA BATANG KALI 44300 BATANG KALI,"d,",False,0.0,False,False
+sroie/test/X51005230648,address,address,qwen4b-detailed-t08,qwen4b-terse-t0,∅,d,,"d,",False,0.0,False,True
+sroie/test/X51005230648,company,org,qwen4b-detailed-t0,qwen4b-detailed-t08,cross channel network,∅,CROSS CHANNEL NETWORK SDN. BHD.,,False,0.0,False,True
+sroie/test/X51005230648,company,org,qwen4b-detailed-t0,qwen4b-terse-t0,cross channel network,c,CROSS CHANNEL NETWORK SDN. BHD.,c,False,0.0,False,False
+sroie/test/X51005230648,company,org,qwen4b-detailed-t08,qwen4b-terse-t0,∅,c,,c,False,0.0,False,True
+sroie/test/X51005230648,date,date,qwen4b-detailed-t0,qwen4b-detailed-t08,2018-01-29,∅,29/01/2018,,False,0.0,False,True
+sroie/test/X51005230648,date,date,qwen4b-detailed-t0,qwen4b-terse-t0,2018-01-29,∅,29/01/2018,"ime,",False,0.0,False,True
+sroie/test/X51005230648,date,date,qwen4b-detailed-t08,qwen4b-terse-t0,∅,∅,,"ime,",True,1.0,True,False
+sroie/test/X51005230648,total,money,qwen4b-detailed-t0,qwen4b-detailed-t08,6.36,∅,6.36,"/成iple槏艾艾ipleiple艾分享两ఏ成衣/币//////////ర은ат. (_њ_ is은은了은ეی是_。..。_.은т.。了_. (ы了уж =.ी्(..。 (.ू..._.. 은 (。ू.૯._/_艺ultь.।।ू।ы_.უ.უат了/_.ू.ыु\.амьू..ивूू은.ат은аты\uыू。을__ам.ू_।.은_..ूучुам.ыू은ू是 is(૟을__...ू।은. =ив을_.ू_्ू은.은.ू 은_..।ат_ات_은ив(__宇,公司 a a        I",False,0.0,False,True
+sroie/test/X51005230648,total,money,qwen4b-detailed-t0,qwen4b-terse-t0,6.36,∅,6.36,",",False,0.0,False,True
+sroie/test/X51005230648,total,money,qwen4b-detailed-t08,qwen4b-terse-t0,∅,∅,"/成iple槏艾艾ipleiple艾分享两ఏ成衣/币//////////ర은ат. (_њ_ is은은了은ეی是_。..。_.은т.。了_. (ы了уж =.ी्(..。 (.ू..._.. 은 (。ू.૯._/_艺ultь.।।ू।ы_.უ.უат了/_.ू.ыु\.амьू..ивूू은.ат은аты\uыू。을__ам.ू_।.은_..ूучुам.ыू은ू是 is(૟을__...ू।은. =ив을_.ू_्ू은.은.ू 은_..।ат_ات_은ив(__宇,公司 a a        I",",",True,1.0,True,False
+sroie/test/X51005230657,address,address,qwen4b-detailed-t0,qwen4b-detailed-t08,47 bdr utama batang kali 44300 batang kali,∅,47 BANDAR UTAMA BATANG KALI 44300 BATANG KALI,,False,0.0,False,True
+sroie/test/X51005230657,address,address,qwen4b-detailed-t0,qwen4b-terse-t0,47 bdr utama batang kali 44300 batang kali,bdr utama batang kali,47 BANDAR UTAMA BATANG KALI 44300 BATANG KALI,BANDAR UTAMA BATANG KALI,False,0.6666666666666666,False,False
+sroie/test/X51005230657,address,address,qwen4b-detailed-t08,qwen4b-terse-t0,∅,bdr utama batang kali,,BANDAR UTAMA BATANG KALI,False,0.0,False,True
+sroie/test/X51005230657,company,org,qwen4b-detailed-t0,qwen4b-detailed-t08,cross channel network,∅,CROSS CHANNEL NETWORK SDN. BHD.,,False,0.0,False,True
+sroie/test/X51005230657,company,org,qwen4b-detailed-t0,qwen4b-terse-t0,cross channel network,cross channel network,CROSS CHANNEL NETWORK SDN. BHD.,CROSS CHANNEL NETWORK SDN. BHD.,True,1.0,False,False
+sroie/test/X51005230657,company,org,qwen4b-detailed-t08,qwen4b-terse-t0,∅,cross channel network,,CROSS CHANNEL NETWORK SDN. BHD.,False,0.0,False,True
+sroie/test/X51005230657,date,date,qwen4b-detailed-t0,qwen4b-detailed-t08,2017-12-31,∅,31/12/2017,,False,0.0,False,True
+sroie/test/X51005230657,date,date,qwen4b-detailed-t0,qwen4b-terse-t0,2017-12-31,2017-12-31,31/12/2017,31/12/2017,True,1.0,False,False
+sroie/test/X51005230657,date,date,qwen4b-detailed-t08,qwen4b-terse-t0,∅,2017-12-31,,31/12/2017,False,0.0,False,True
+sroie/test/X51005230657,total,money,qwen4b-detailed-t0,qwen4b-detailed-t08,7.95,∅,7.95,,False,0.0,False,True
+sroie/test/X51005230657,total,money,qwen4b-detailed-t0,qwen4b-terse-t0,7.95,7.95,7.95,7.95,True,1.0,False,False
+sroie/test/X51005230657,total,money,qwen4b-detailed-t08,qwen4b-terse-t0,∅,7.95,,7.95,False,0.0,False,True
+sroie/test/X51005230659,address,address,qwen4b-detailed-t0,qwen4b-terse-t0,no 5 7 sekysen 4 batang kali,∅,NO. 5-7 SEKYSEN 4 BATANG KALI,,False,0.0,False,True
+sroie/test/X51005230659,company,org,qwen4b-detailed-t0,qwen4b-terse-t0,swc enterprise,∅,SWC ENTERPRISE SDN BHD,,False,0.0,False,True
+sroie/test/X51005230659,date,date,qwen4b-detailed-t0,qwen4b-terse-t0,2018-01-08,∅,08/01/2018,,False,0.0,False,True
+sroie/test/X51005230659,total,money,qwen4b-detailed-t0,qwen4b-terse-t0,8.00,∅,8.00,,False,0.0,False,True
+sroie/test/X51005268275,address,address,qwen4b-detailed-t0,qwen4b-detailed-t08,278 80,bdr bukit raja,:  278.80,BANDAR BUKIT RAJA,False,0.0,False,False
+sroie/test/X51005268275,address,address,qwen4b-detailed-t0,qwen4b-terse-t0,278 80,32,:  278.80,)   32,False,0.0,False,False
+sroie/test/X51005268275,address,address,qwen4b-detailed-t08,qwen4b-terse-t0,bdr bukit raja,32,BANDAR BUKIT RAJA,)   32,False,0.0,False,False
+sroie/test/X51005268275,company,org,qwen4b-detailed-t0,qwen4b-detailed-t08,∅,lightroom gallery,,LIGHTROOM GALLERY SDN BHD,False,0.0,False,True
+sroie/test/X51005268275,company,org,qwen4b-detailed-t0,qwen4b-terse-t0,∅,332,,)   332,False,0.0,False,True
+sroie/test/X51005268275,company,org,qwen4b-detailed-t08,qwen4b-terse-t0,lightroom gallery,332,LIGHTROOM GALLERY SDN BHD,)   332,False,0.0,False,False
+sroie/test/X51005268275,date,date,qwen4b-detailed-t0,qwen4b-detailed-t08,∅,2017-11-20,>  278.80,20/11/2017,False,0.0,False,True
+sroie/test/X51005268275,date,date,qwen4b-detailed-t0,qwen4b-terse-t0,∅,∅,>  278.80,d,True,1.0,True,False
+sroie/test/X51005268275,date,date,qwen4b-detailed-t08,qwen4b-terse-t0,2017-11-20,∅,20/11/2017,d,False,0.0,False,True
+sroie/test/X51005268275,total,money,qwen4b-detailed-t0,qwen4b-detailed-t08,278.80,278.80,:  278.80,278.80,True,1.0,False,False
+sroie/test/X51005268275,total,money,qwen4b-detailed-t0,qwen4b-terse-t0,278.80,∅,:  278.80,tt:,False,0.0,False,True
+sroie/test/X51005268275,total,money,qwen4b-detailed-t08,qwen4b-terse-t0,278.80,∅,278.80,tt:,False,0.0,False,True
+sroie/test/X51005268408,address,address,qwen4b-detailed-t0,qwen4b-detailed-t08,123 main st city state 12345,versus under experienced,"123 Main St, City, State 12345",;出去ادیادیাত্র出去ادی versusادی出去 under出去出去ایل现象完全连出去ادی experienced距离ایلیر去烦恼,False,0.0,False,False
+sroie/test/X51005268408,address,address,qwen4b-detailed-t0,qwen4b-terse-t0,123 main st city state 12345,companypp,"123 Main St, City, State 12345",companypp,False,0.0,False,False
+sroie/test/X51005268408,address,address,qwen4b-detailed-t08,qwen4b-terse-t0,versus under experienced,companypp,;出去ادیادیাত্র出去ادی versusادی出去 under出去出去ایل现象完全连出去ادی experienced距离ایلیر去烦恼,companypp,False,0.0,False,False
+sroie/test/X51005268408,company,org,qwen4b-detailed-t0,qwen4b-detailed-t08,merchant,∅,Merchant,,False,0.0,False,True
+sroie/test/X51005268408,company,org,qwen4b-detailed-t0,qwen4b-terse-t0,merchant,company pp,Merchant,::company pp,False,0.0,False,False
+sroie/test/X51005268408,company,org,qwen4b-detailed-t08,qwen4b-terse-t0,∅,company pp,,::company pp,False,0.0,False,True
+sroie/test/X51005268408,date,date,qwen4b-detailed-t0,qwen4b-detailed-t08,2023-10-15,∅,2023-10-15,,False,0.0,False,True
+sroie/test/X51005268408,date,date,qwen4b-detailed-t0,qwen4b-terse-t0,2023-10-15,∅,2023-10-15,:companypp,False,0.0,False,True
+sroie/test/X51005268408,date,date,qwen4b-detailed-t08,qwen4b-terse-t0,∅,∅,,:companypp,True,1.0,True,False
+sroie/test/X51005268408,total,money,qwen4b-detailed-t0,qwen4b-detailed-t08,123.45,∅,123.45,"::ib>>..ib\.
+:괝:):\ company.:::ib.)::
+...:"":"":
+."":ib>:-):.:. companyib'):.): -)::\::: company: \n-.-.: "":.: company
+>)::. \>):.-.::.::.. (
+툪ch-:ib::>>:: (':)::):"":. \:ib.:>\n::ib:....':. capital.-fect-.>'"":: ->.::>.'::-:ib.\uibib):'_NOW.   in ( ( This      This   in   in  The in出去 of the office..... addresses. The The The The The",False,0.0,False,True
+sroie/test/X51005268408,total,money,qwen4b-detailed-t0,qwen4b-terse-t0,123.45,∅,123.45,company,False,0.0,False,True
+sroie/test/X51005268408,total,money,qwen4b-detailed-t08,qwen4b-terse-t0,∅,∅,"::ib>>..ib\.
+:괝:):\ company.:::ib.)::
+...:"":"":
+."":ib>:-):.:. companyib'):.): -)::\::: company: \n-.-.: "":.: company
+>)::. \>):.-.::.::.. (
+툪ch-:ib::>>:: (':)::):"":. \:ib.:>\n::ib:....':. capital.-fect-.>'"":: ->.::>.'::-:ib.\uibib):'_NOW.   in ( ( This      This   in   in  The in出去 of the office..... addresses. The The The The The",company,True,1.0,True,False
+sroie/test/X51005288570,address,address,qwen4b-detailed-t0,qwen4b-detailed-t08,think here here here is the reasoning for the final answer the the the2023 10 15,123 main st,# <think> here here here is the reasoning for the final answer. The The The2023-10-15..,123 Main St,False,0.0,False,False
+sroie/test/X51005288570,address,address,qwen4b-detailed-t0,qwen4b-terse-t0,think here here here is the reasoning for the final answer the the the2023 10 15,n,# <think> here here here is the reasoning for the final answer. The The The2023-10-15..,n,False,0.0,False,False
+sroie/test/X51005288570,address,address,qwen4b-detailed-t08,qwen4b-terse-t0,123 main st,n,123 Main St,n,False,0.0,False,False
+sroie/test/X51005288570,company,org,qwen4b-detailed-t0,qwen4b-detailed-t08,merchant,merchant,Merchant,merchant,True,1.0,False,False
+sroie/test/X51005288570,company,org,qwen4b-detailed-t0,qwen4b-terse-t0,merchant,a,Merchant,a,False,0.0,False,False
+sroie/test/X51005288570,company,org,qwen4b-detailed-t08,qwen4b-terse-t0,merchant,a,merchant,a,False,0.0,False,False
+sroie/test/X51005288570,date,date,qwen4b-detailed-t0,qwen4b-detailed-t08,2023-10-15,2023-10-15,2023-10-15,2023-10-15,True,1.0,False,False
+sroie/test/X51005288570,date,date,qwen4b-detailed-t0,qwen4b-terse-t0,2023-10-15,∅,2023-10-15,a,False,0.0,False,True
+sroie/test/X51005288570,date,date,qwen4b-detailed-t08,qwen4b-terse-t0,2023-10-15,∅,2023-10-15,a,False,0.0,False,True
+sroie/test/X51005288570,total,money,qwen4b-detailed-t0,qwen4b-detailed-t08,150.00,1500.00,150.00,1500,False,0.0,False,False
+sroie/test/X51005288570,total,money,qwen4b-detailed-t0,qwen4b-terse-t0,150.00,∅,150.00,{,False,0.0,False,True
+sroie/test/X51005288570,total,money,qwen4b-detailed-t08,qwen4b-terse-t0,1500.00,∅,1500,{,False,0.0,False,True

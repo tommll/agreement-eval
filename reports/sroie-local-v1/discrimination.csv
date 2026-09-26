@@ -1,0 +1,9 @@
+score,split,n,base_rate,auc
+pairwise_agreement,all,48,0.3125,0.5626262626262626
+pairwise_agreement,gold_populated=True,48,0.3125,0.5626262626262626
+consensus_frac,all,48,0.3125,0.6919191919191919
+consensus_frac,gold_populated=True,48,0.3125,0.6919191919191919
+entropy (inverted),all,48,0.3125,0.43333333333333335
+entropy (inverted),gold_populated=True,48,0.3125,0.43333333333333335
+jaccard_agreement,all,48,0.3125,0.5545454545454546
+jaccard_agreement,gold_populated=True,48,0.3125,0.5545454545454546

@@ -1,0 +1,9 @@
+score,split,agreement_bucket,n,n_correct,p_correct,ci_low,ci_high
+pairwise_agreement,all,17%,4,2,0.5,0.15003570882017148,0.8499642911798285
+pairwise_agreement,all,33%,2,1,0.5,0.09452865480086614,0.9054713451991339
+pairwise_agreement,all,50%,16,16,1.0,0.8063865817272802,1.0
+pairwise_agreement,all,100%,26,26,1.0,0.8712669561953784,1.0
+pairwise_agreement,gold_populated=True,17%,4,2,0.5,0.15003570882017148,0.8499642911798285
+pairwise_agreement,gold_populated=True,33%,2,1,0.5,0.09452865480086614,0.9054713451991339
+pairwise_agreement,gold_populated=True,50%,16,16,1.0,0.8063865817272802,1.0
+pairwise_agreement,gold_populated=True,100%,26,26,1.0,0.8712669561953784,1.0

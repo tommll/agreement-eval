@@ -1,0 +1,5 @@
+score,split,n,base_rate,auc
+pairwise_agreement,all,48,0.9375,0.9666666666666667
+pairwise_agreement,gold_populated=True,48,0.9375,0.9666666666666667
+ds_confidence,all,48,0.9375,0.9666666666666667
+ds_confidence,gold_populated=True,48,0.9375,0.9666666666666667

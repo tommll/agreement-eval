@@ -1,0 +1,33 @@
+[project]
+name = "agreement-eval"
+version = "0.1.0"
+description = "Does model agreement predict extraction accuracy? A field-level study on receipts and forms."
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=1.2.0",
+    "psycopg[binary]>=3.2",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "python-dateutil>=2.8",
+    "PyYAML>=6.0",
+    "tqdm>=4.66",
+    "pillow>=10.0",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+agreement-eval = "agreement_eval.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agreement_eval"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

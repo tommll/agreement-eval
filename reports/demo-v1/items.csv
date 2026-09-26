@@ -1,0 +1,1201 @@
+doc_id,field,field_type,gold_label,gold_populated,n_raters,n_pairs,n_agreeing_pairs,pairwise_agreement,pairwise_agreement_populated,unanimous,n_distinct,consensus_label,consensus_support,consensus_frac,entropy,n_null,null_frac,all_null,any_null,consensus_correct,any_correct,n_correct
+synthetic/s7/0000,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,0.5,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0000,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0000,date,date,2019-03-11,True,4,6,3,0.5,1.0,False,2,2019-03-11,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0000,phone,phone,71599313,True,4,6,3,0.5,0.5,False,2,71599313,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0000,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0000,total,money,12.90,True,4,6,3,0.5,1.0,False,2,12.90,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0001,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,0.5,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0001,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0001,date,date,2018-07-14,True,4,6,3,0.5,1.0,False,2,2018-07-14,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0001,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0001,tax,money,1.16,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,1.16,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0001,total,money,20.56,True,4,6,2,0.3333333333333333,1.0,False,2,20.56,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0002,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,3,0.5,0.5,False,2,lot 3 jln pelabur 23 1 40300 shah alam selangor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0002,company,org,gardenia bakeries kl,True,4,6,3,0.5,0.5,False,2,gardenia bakeries kl,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0002,date,date,2018-10-21,True,4,6,6,1.0,1.0,True,1,2018-10-21,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0002,phone,phone,46532929,True,4,6,3,0.5,0.5,False,2,46532929,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0002,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0002,total,money,25.70,True,4,6,2,0.3333333333333333,1.0,False,2,25.70,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0003,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0003,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery shop,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0003,date,date,2018-11-27,True,4,6,6,1.0,1.0,True,1,2018-11-27,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0003,phone,phone,36771976,True,4,6,3,0.5,1.0,False,2,36771976,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0003,tax,money,0.19,True,4,6,6,1.0,1.0,True,1,0.19,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0003,total,money,3.39,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,3.39,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0004,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,1.0,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0004,company,org,99 speed mart s b,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,99 speed mart s b,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0004,date,date,2019-09-22,True,4,6,6,1.0,1.0,True,1,2019-09-22,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0004,phone,phone,48154999,True,4,6,6,1.0,1.0,True,1,48154999,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0004,tax,money,0.87,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,0.87,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0004,total,money,15.37,True,4,6,3,0.5,1.0,False,2,15.37,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0005,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0005,company,org,kedai papan yew chuan,True,4,6,3,0.5,0.5,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0005,date,date,2019-08-17,True,4,6,6,1.0,1.0,True,1,2019-08-17,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0005,phone,phone,52559011,True,4,6,3,0.5,1.0,False,2,52559011,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0005,tax,money,1.85,True,4,6,6,1.0,1.0,True,1,1.85,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0005,total,money,32.65,True,4,6,3,0.5,0.5,False,2,32.65,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0006,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0006,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0006,date,date,2019-09-03,True,4,6,3,0.5,1.0,False,2,2019-09-03,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0006,phone,phone,91955422,True,4,6,6,1.0,1.0,True,1,91955422,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0006,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0006,total,money,27.70,True,4,6,6,1.0,1.0,True,1,26.50,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0007,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,0.5,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0007,company,org,perniagaan zheng hui,True,4,6,3,0.5,1.0,False,2,perniagaan zheng hui,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0007,date,date,2019-01-03,True,4,6,6,1.0,1.0,True,1,2019-01-03,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0007,phone,phone,47252918,True,4,6,3,0.5,1.0,False,2,47252918,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0007,tax,money,1.80,True,4,6,3,0.5,1.0,False,2,1.80,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0007,total,money,31.80,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,31.80,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0008,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,3,0.5,1.0,False,2,lot 3 jln pelabur 23 1 40300 shah alam selangor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0008,company,org,gardenia bakeries kl,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,gardenia bakeries kl,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0008,date,date,2018-05-25,True,4,6,6,1.0,1.0,True,1,2018-05-25,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0008,phone,phone,45597580,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,45597580,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0008,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0008,total,money,24.60,True,4,6,6,1.0,1.0,True,1,24.60,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0009,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0009,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery shop,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0009,date,date,2019-07-27,True,4,6,6,1.0,1.0,True,1,2019-07-27,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0009,phone,phone,47744822,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,47744822,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0009,tax,money,2.33,True,4,6,3,0.5,0.5,False,2,2.33,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0009,total,money,41.23,True,4,6,3,0.5,0.5,False,2,41.23,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0010,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0010,company,org,99 speed mart s b,True,4,6,3,0.5,0.5,False,2,99 speed mart s b,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0010,date,date,2019-05-06,True,4,6,3,0.5,0.5,False,2,2019-05-06,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0010,phone,phone,74263056,True,4,6,6,1.0,1.0,True,1,74263056,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0010,tax,money,0.14,True,4,6,3,0.5,1.0,False,2,0.14,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0010,total,money,2.44,True,4,6,6,1.0,1.0,True,1,2.44,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0011,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,lot 276 jln banting 43800 dengkil,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0011,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0011,date,date,2018-11-21,True,4,6,2,0.3333333333333333,1.0,False,2,2018-11-21,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0011,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0011,tax,money,2.84,True,4,6,3,0.5,0.5,False,2,2.84,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0011,total,money,50.24,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,50.24,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0012,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,0.5,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0012,company,org,ojc marketing,True,4,6,6,1.0,1.0,True,1,ojc marketing,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0012,date,date,2018-08-07,True,4,6,1,0.16666666666666666,0.0,False,3,∅,2,0.5,0.946394630357186,2,0.5,False,True,False,True,1
+synthetic/s7/0012,phone,phone,72549791,True,4,6,6,1.0,1.0,True,1,772549791,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0012,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0012,total,money,18.00,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,15.60,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0013,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,no 59 jln permas 9 5 bdr baru permas jaya,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0013,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0013,date,date,2018-02-01,True,4,6,3,0.5,0.5,False,2,2018-02-01,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0013,phone,phone,39698996,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,839698996,2,0.5,0.946394630357186,1,0.25,False,True,False,True,1
+synthetic/s7/0013,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0013,total,money,46.50,True,4,6,6,1.0,1.0,True,1,46.10,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0014,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,lot 3 jln pelabur 23 1 40300 shah alam selangor,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0014,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0014,date,date,2018-02-10,True,4,6,6,1.0,1.0,True,1,2018-02-10,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0014,phone,phone,82659459,True,4,6,3,0.5,0.5,False,2,82659459,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0014,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0014,total,money,18.00,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,18.00,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0015,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,0.5,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0015,company,org,sanyu stationery shop,True,4,6,3,0.5,0.5,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0015,date,date,2018-03-12,True,4,6,2,0.3333333333333333,1.0,False,2,2018-03-12,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0015,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0015,tax,money,1.99,True,4,6,6,1.0,1.0,True,1,1.99,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0015,total,money,35.19,True,4,6,3,0.5,1.0,False,2,35.19,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0016,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0016,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0016,date,date,2019-09-18,True,4,6,6,1.0,1.0,True,1,2019-09-18,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0016,phone,phone,93324275,True,4,6,3,0.5,1.0,False,2,93324275,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0016,tax,money,1.48,True,4,6,6,1.0,1.0,True,1,1.48,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0016,total,money,26.08,True,4,6,3,0.5,1.0,False,2,26.08,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0017,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0017,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0017,date,date,2018-01-24,True,4,6,6,1.0,1.0,True,1,2018-01-24,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0017,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0017,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0017,total,money,20.00,True,4,6,3,0.5,0.5,False,2,20.00,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0018,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0018,company,org,ojc marketing,True,4,6,3,0.5,1.0,False,2,ojc marketing,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0018,date,date,2018-02-12,True,4,6,3,0.5,1.0,False,2,2018-02-12,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0018,phone,phone,67391031,True,4,6,6,1.0,1.0,True,1,67391031,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0018,tax,money,0.19,True,4,6,6,1.0,1.0,True,1,0.39,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0018,total,money,3.39,True,4,6,3,0.5,0.5,False,2,3.39,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0019,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,1.0,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0019,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0019,date,date,2018-11-26,True,4,6,6,1.0,1.0,True,1,2018-11-26,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0019,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0019,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0019,total,money,21.40,True,4,6,3,0.5,1.0,False,2,21.40,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0020,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0020,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0020,date,date,2019-11-26,True,4,6,6,1.0,1.0,True,1,2019-11-26,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0020,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0020,tax,money,1.28,True,4,6,6,1.0,1.0,True,1,1.18,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0020,total,money,22.68,True,4,6,3,0.5,0.5,False,2,22.68,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0021,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0021,company,org,sanyu stationery shop,True,4,6,3,0.5,0.5,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0021,date,date,2018-03-06,True,4,6,6,1.0,1.0,True,1,2018-03-06,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0021,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0021,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0021,total,money,26.20,True,4,6,3,0.5,0.5,False,2,26.20,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0022,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,0.5,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0022,company,org,99 speed mart s b,True,4,6,3,0.5,0.5,False,2,99 speed mart s b,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0022,date,date,2018-03-12,True,4,6,6,1.0,1.0,True,1,2018-03-12,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0022,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0022,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0022,total,money,1.50,True,4,6,3,0.5,1.0,False,2,1.50,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0023,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0023,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0023,date,date,2018-04-14,True,4,6,6,1.0,1.0,True,1,2018-04-14,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0023,phone,phone,97006341,True,4,6,3,0.5,1.0,False,2,97006341,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0023,tax,money,0.39,True,4,6,6,1.0,1.0,True,1,0.39,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0023,total,money,6.89,True,4,6,3,0.5,0.5,False,2,6.89,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0024,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0024,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0024,date,date,2018-03-27,True,4,6,3,0.5,1.0,False,2,2018-03-27,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0024,phone,phone,99999219,True,4,6,6,1.0,1.0,True,1,99999219,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0024,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0024,total,money,29.30,True,4,6,6,1.0,1.0,True,1,29.30,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0025,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,0.5,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0025,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0025,date,date,2018-09-17,True,4,6,6,1.0,1.0,True,1,2018-09-17,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0025,phone,phone,82232011,True,4,6,3,0.5,0.5,False,2,82232011,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0025,tax,money,1.39,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,0.79,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0025,total,money,24.59,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,24.59,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0026,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0026,company,org,gardenia bakeries kl,True,4,6,3,0.5,0.5,False,2,gardenia bakeries kl,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0026,date,date,2019-09-17,True,4,6,6,1.0,1.0,True,1,2019-09-17,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0026,phone,phone,92009318,True,4,6,3,0.5,1.0,False,2,92009318,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0026,tax,money,0.09,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,0.09,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0026,total,money,1.59,True,4,6,3,0.5,1.0,False,2,1.59,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0027,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,no 31g and 33g jln setia indah x u13 x 40170 setia alam,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0027,company,org,sanyu stationery shop,True,4,6,3,0.5,0.5,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0027,date,date,2019-02-25,True,4,6,6,1.0,1.0,True,1,2019-02-25,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0027,phone,phone,66195057,True,4,6,3,0.5,0.5,False,2,66195057,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0027,tax,money,1.41,True,4,6,6,1.0,1.0,True,1,1.41,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0027,total,money,24.91,True,4,6,6,1.0,1.0,True,1,24.91,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0028,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,1.0,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0028,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0028,date,date,2019-04-18,True,4,6,6,1.0,1.0,True,1,2019-04-18,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0028,phone,phone,83468017,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,483468017,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0028,tax,money,1.37,True,4,6,6,1.0,1.0,True,1,1.37,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0028,total,money,24.27,True,4,6,3,0.5,1.0,False,2,24.27,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0029,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0029,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0029,date,date,2018-02-10,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,2018-02-10,2,0.5,1.0,0,0.0,False,False,True,True,2
+synthetic/s7/0029,phone,phone,35078983,True,4,6,6,1.0,1.0,True,1,35078983,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0029,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0029,total,money,20.00,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,20.00,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0030,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0030,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0030,date,date,2019-12-06,True,4,6,6,1.0,1.0,True,1,2019-12-06,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0030,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0030,tax,money,2.18,True,4,6,6,1.0,1.0,True,1,2.18,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0030,total,money,38.58,True,4,6,3,0.5,1.0,False,2,38.58,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0031,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,6,1.0,1.0,True,1,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0031,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0031,date,date,2018-08-15,True,4,6,6,1.0,1.0,True,1,2018-08-15,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0031,phone,phone,93342716,True,4,6,6,1.0,1.0,True,1,93342716,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0031,tax,money,2.89,True,4,6,6,1.0,1.0,True,1,2.89,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0031,total,money,51.09,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,51.09,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0032,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0032,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0032,date,date,2019-03-02,True,4,6,6,1.0,1.0,True,1,2019-02-03,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0032,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0032,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0032,total,money,26.20,True,4,6,6,1.0,1.0,True,1,26.20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0033,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,no 31g and 33g jln setia indah x u13 x 40170 setia alam,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0033,company,org,sanyu stationery shop,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,stationery shop,2,0.5,0.946394630357186,1,0.25,False,True,False,True,1
+synthetic/s7/0033,date,date,2019-09-18,True,4,6,6,1.0,1.0,True,1,2019-09-18,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0033,phone,phone,33751275,True,4,6,6,1.0,1.0,True,1,33751275,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0033,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0033,total,money,16.70,True,4,6,6,1.0,1.0,True,1,16.70,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0034,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,1.0,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0034,company,org,99 speed mart s b,True,4,6,3,0.5,1.0,False,2,99 speed mart s b,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0034,date,date,2018-10-03,True,4,6,6,1.0,1.0,True,1,2018-10-03,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0034,phone,phone,56667844,True,4,6,6,1.0,1.0,True,1,56667844,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0034,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0034,total,money,6.50,True,4,6,3,0.5,0.5,False,2,6.50,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0035,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,3,0.5,1.0,False,2,lot 276 jln banting 43800 dengkil selangor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0035,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0035,date,date,2018-09-02,True,4,6,3,0.5,0.5,False,2,2018-09-02,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0035,phone,phone,57435997,True,4,6,6,1.0,1.0,True,1,57435997,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0035,tax,money,0.14,True,4,6,3,0.5,0.5,False,2,0.14,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0035,total,money,2.44,True,4,6,6,1.0,1.0,True,1,2.44,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0036,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0036,company,org,ojc marketing,True,4,6,1,0.16666666666666666,0.0,False,3,∅,2,0.5,0.946394630357186,2,0.5,False,True,False,True,1
+synthetic/s7/0036,date,date,2018-08-10,True,4,6,6,1.0,1.0,True,1,2018-08-10,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0036,phone,phone,38509284,True,4,6,6,1.0,1.0,True,1,38509284,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0036,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0036,total,money,40.90,True,4,6,6,1.0,1.0,True,1,40.90,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0037,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,6,1.0,1.0,True,1,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0037,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0037,date,date,2019-04-16,True,4,6,6,1.0,1.0,True,1,2019-04-16,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0037,phone,phone,66186042,True,4,6,6,1.0,1.0,True,1,66186042,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0037,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0037,total,money,21.40,True,4,6,6,1.0,1.0,True,1,41.40,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0038,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,3,0.5,1.0,False,2,lot 3 jln pelabur 23 1 40300 shah alam selangor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0038,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0038,date,date,2018-04-11,True,4,6,6,1.0,1.0,True,1,2018-04-11,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0038,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0038,tax,money,3.23,True,4,6,6,1.0,1.0,True,1,3.23,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0038,total,money,57.03,True,4,6,3,0.5,0.5,False,2,57.03,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0039,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,0.5,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0039,company,org,sanyu stationery shop,True,4,6,2,0.3333333333333333,1.0,False,2,sanyu stationery shop,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0039,date,date,2019-02-02,True,4,6,3,0.5,1.0,False,2,2019-02-02,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0039,phone,phone,55561059,True,4,6,3,0.5,0.5,False,2,55561059,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0039,tax,money,1.41,True,4,6,6,1.0,1.0,True,1,1.41,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0039,total,money,24.91,True,4,6,6,1.0,1.0,True,1,24.31,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0040,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0040,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0040,date,date,2018-06-18,True,4,6,6,1.0,1.0,True,1,2018-06-18,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0040,phone,phone,54902374,True,4,6,3,0.5,1.0,False,2,54902374,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0040,tax,money,0.39,True,4,6,3,0.5,1.0,False,2,0.39,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0040,total,money,6.89,True,4,6,3,0.5,0.5,False,2,6.89,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0041,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,3,0.5,1.0,False,2,lot 276 jln banting 43800 dengkil selangor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0041,company,org,kedai papan yew chuan,True,4,6,3,0.5,1.0,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0041,date,date,2018-04-21,True,4,6,6,1.0,1.0,True,1,2018-04-21,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0041,phone,phone,67001682,True,4,6,6,1.0,1.0,True,1,67001682,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0041,tax,money,0.77,True,4,6,6,1.0,1.0,True,1,0.77,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0041,total,money,13.67,True,4,6,6,1.0,1.0,True,1,13.67,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0042,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,1.0,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0042,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0042,date,date,2018-11-10,True,4,6,3,0.5,1.0,False,2,2018-11-10,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0042,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0042,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0042,total,money,2.30,True,4,6,3,0.5,0.5,False,2,2.30,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0043,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,0.5,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0043,company,org,perniagaan zheng hui,True,4,6,3,0.5,0.5,False,2,perniagaan zheng hui,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0043,date,date,2018-08-24,True,4,6,6,1.0,1.0,True,1,2018-08-24,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0043,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0043,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0043,total,money,21.80,True,4,6,3,0.5,0.5,False,2,21.80,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0044,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0044,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0044,date,date,2018-09-05,True,4,6,3,0.5,0.5,False,2,2018-09-05,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0044,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0044,tax,money,0.86,True,4,6,6,1.0,1.0,True,1,0.86,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0044,total,money,15.26,True,4,6,6,1.0,1.0,True,1,15.26,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0045,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0045,company,org,sanyu stationery shop,True,4,6,3,0.5,0.5,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0045,date,date,2018-01-18,True,4,6,6,1.0,1.0,True,1,2018-01-18,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0045,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0045,tax,money,0.43,True,4,6,6,1.0,1.0,True,1,0.43,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0045,total,money,7.53,True,4,6,6,1.0,1.0,True,1,7.53,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0046,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0046,company,org,99 speed mart s b,True,4,6,3,0.5,0.5,False,2,99 speed mart s b,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0046,date,date,2018-11-03,True,4,6,3,0.5,0.5,False,2,2018-03-11,3,0.75,0.8112781244591328,0,0.0,False,False,False,True,1
+synthetic/s7/0046,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0046,tax,money,1.90,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,1.90,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0046,total,money,33.60,True,4,6,6,1.0,1.0,True,1,33.60,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0047,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0047,company,org,kedai papan yew chuan,True,4,6,3,0.5,1.0,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0047,date,date,2019-08-15,True,4,6,2,0.3333333333333333,1.0,False,2,2019-08-15,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0047,phone,phone,37314248,True,4,6,6,1.0,1.0,True,1,37314248,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0047,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0047,total,money,4.80,True,4,6,6,1.0,1.0,True,1,4.80,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0048,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,0.5,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0048,company,org,ojc marketing,True,4,6,3,0.5,1.0,False,2,ojc marketing,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0048,date,date,2019-05-11,True,4,6,3,0.5,0.5,False,2,2019-05-11,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0048,phone,phone,82014566,True,4,6,3,0.5,1.0,False,2,82014566,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0048,tax,money,0.28,True,4,6,6,1.0,1.0,True,1,0.28,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0048,total,money,4.98,True,4,6,6,1.0,1.0,True,1,4.98,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0049,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,6,1.0,1.0,True,1,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0049,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0049,date,date,2019-09-23,True,4,6,6,1.0,1.0,True,1,2019-09-23,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0049,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0049,tax,money,0.96,True,4,6,6,1.0,1.0,True,1,0.96,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0049,total,money,16.96,True,4,6,6,1.0,1.0,True,1,14.96,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0050,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,3,0.5,1.0,False,2,lot 3 jln pelabur 23 1 40300 shah alam selangor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0050,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0050,date,date,2019-02-15,True,4,6,2,0.3333333333333333,1.0,False,2,2019-02-15,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0050,phone,phone,86365289,True,4,6,2,0.3333333333333333,1.0,False,2,86365289,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0050,tax,money,2.35,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,2.35,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0050,total,money,41.45,True,4,6,6,1.0,1.0,True,1,41.45,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0051,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,1.0,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0051,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery shop,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0051,date,date,2019-11-27,True,4,6,6,1.0,1.0,True,1,2019-11-27,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0051,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0051,tax,money,1.08,True,4,6,3,0.5,0.5,False,2,1.08,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0051,total,money,19.08,True,4,6,6,1.0,1.0,True,1,19.08,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0052,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,lot p t 2811 jln angsana tmn mutiara rini,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0052,company,org,99 speed mart s b,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,99 speed mart,2,0.5,0.946394630357186,1,0.25,False,True,False,True,1
+synthetic/s7/0052,date,date,2019-01-06,True,4,6,6,1.0,1.0,True,1,2019-01-06,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0052,phone,phone,39606428,True,4,6,6,1.0,1.0,True,1,39606428,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0052,tax,money,3.28,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,3.28,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0052,total,money,57.88,True,4,6,6,1.0,1.0,True,1,57.88,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0053,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0053,company,org,kedai papan yew chuan,True,4,6,3,0.5,0.5,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0053,date,date,2018-07-27,True,4,6,3,0.5,1.0,False,2,2018-07-27,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0053,phone,phone,64992251,True,4,6,6,1.0,1.0,True,1,64992251,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0053,tax,money,1.17,True,4,6,3,0.5,0.5,False,2,1.17,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0053,total,money,20.67,True,4,6,3,0.5,1.0,False,2,20.67,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0054,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0054,company,org,ojc marketing,True,4,6,3,0.5,1.0,False,2,ojc marketing,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0054,date,date,2019-01-28,True,4,6,6,1.0,1.0,True,1,2019-01-28,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0054,phone,phone,43555353,True,4,6,6,1.0,1.0,True,1,43555353,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0054,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0054,total,money,1.50,True,4,6,6,1.0,1.0,True,1,1.50,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0055,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,6,1.0,1.0,True,1,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0055,company,org,perniagaan zheng hui,True,4,6,3,0.5,1.0,False,2,perniagaan zheng hui,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0055,date,date,2019-06-07,True,4,6,3,0.5,0.5,False,2,2019-06-07,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0055,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0055,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0055,total,money,21.40,True,4,6,3,0.5,0.5,False,2,21.40,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0056,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,lot 3 jln pelabur 23 1 40300 shah alam selangor,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0056,company,org,gardenia bakeries kl,True,4,6,3,0.5,0.5,False,2,gardenia bakeries kl,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0056,date,date,2019-12-02,True,4,6,6,1.0,1.0,True,1,2019-12-02,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0056,phone,phone,∅,False,4,6,6,1.0,1.0,True,1,312345678,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0056,tax,money,1.70,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,1.70,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0056,total,money,30.00,True,4,6,3,0.5,0.5,False,2,30.00,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0057,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,1.0,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0057,company,org,sanyu stationery shop,True,4,6,3,0.5,1.0,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0057,date,date,2019-06-14,True,4,6,6,1.0,1.0,True,1,2019-06-14,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0057,phone,phone,83445928,True,4,6,3,0.5,0.5,False,2,83445928,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0057,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0057,total,money,45.90,True,4,6,3,0.5,1.0,False,2,45.90,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0058,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,0.5,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0058,company,org,99 speed mart s b,True,4,6,3,0.5,1.0,False,2,99 speed mart s b,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0058,date,date,2018-02-13,True,4,6,6,1.0,1.0,True,1,2018-02-13,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0058,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0058,tax,money,1.06,True,4,6,3,0.5,1.0,False,2,1.06,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0058,total,money,18.76,True,4,6,3,0.5,0.5,False,2,18.76,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0059,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0059,company,org,kedai papan yew chuan,True,4,6,3,0.5,0.5,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0059,date,date,2019-08-11,True,4,6,2,0.3333333333333333,1.0,False,2,2019-08-11,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0059,phone,phone,34264917,True,4,6,6,1.0,1.0,True,1,34264917,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0059,tax,money,0.97,True,4,6,6,1.0,1.0,True,1,0.97,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0059,total,money,17.07,True,4,6,3,0.5,1.0,False,2,17.07,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0060,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0060,company,org,ojc marketing,True,4,6,6,1.0,1.0,True,1,ojc marketing sdn,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0060,date,date,2019-01-07,True,4,6,6,1.0,1.0,True,1,2019-01-07,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0060,phone,phone,36105546,True,4,6,6,1.0,1.0,True,1,36105546,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0060,tax,money,3.53,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,3.53,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0060,total,money,62.33,True,4,6,6,1.0,1.0,True,1,62.33,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0061,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,1.0,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0061,company,org,perniagaan zheng hui,True,4,6,3,0.5,0.5,False,2,perniagaan zheng hui,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0061,date,date,2018-09-22,True,4,6,6,1.0,1.0,True,1,2018-09-22,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0061,phone,phone,85568075,True,4,6,6,1.0,1.0,True,1,85568075,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0061,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0061,total,money,6.50,True,4,6,6,1.0,1.0,True,1,6.50,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0062,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0062,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0062,date,date,2019-07-02,True,4,6,3,0.5,1.0,False,2,2019-07-02,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0062,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0062,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0062,total,money,16.00,True,4,6,6,1.0,1.0,True,1,16.00,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0063,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0063,company,org,sanyu stationery shop,True,4,6,3,0.5,1.0,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0063,date,date,2018-03-05,True,4,6,6,1.0,1.0,True,1,2018-03-05,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0063,phone,phone,37605977,True,4,6,1,0.16666666666666666,0.0,False,3,∅,2,0.5,0.946394630357186,2,0.5,False,True,False,True,1
+synthetic/s7/0063,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0063,total,money,38.90,True,4,6,0,0.0,0.0,False,4,37.70,1,0.25,1.0,1,0.25,False,True,False,True,1
+synthetic/s7/0064,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,0.5,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0064,company,org,99 speed mart s b,True,4,6,3,0.5,0.5,False,2,99 speed mart s b,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0064,date,date,2019-11-17,True,4,6,6,1.0,1.0,True,1,2019-11-17,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0064,phone,phone,72967358,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,72967358,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0064,tax,money,0.77,True,4,6,6,1.0,1.0,True,1,0.70,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0064,total,money,13.67,True,4,6,6,1.0,1.0,True,1,13.67,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0065,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,lot 276 jln banting 43800 dengkil,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0065,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,papan yew chuan,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0065,date,date,2019-01-01,True,4,6,6,1.0,1.0,True,1,2019-01-01,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0065,phone,phone,41297747,True,4,6,6,1.0,1.0,True,1,41297747,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0065,tax,money,2.38,True,4,6,6,1.0,1.0,True,1,2.38,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0065,total,money,42.08,True,4,6,3,0.5,0.5,False,2,42.08,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0066,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0066,company,org,ojc marketing,True,4,6,6,1.0,1.0,True,1,ojc marketing,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0066,date,date,2018-01-02,True,4,6,6,1.0,1.0,True,1,2018-01-02,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0066,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0066,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0066,total,money,38.10,True,4,6,6,1.0,1.0,True,1,38.10,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0067,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,1.0,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0067,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0067,date,date,2019-06-23,True,4,6,6,1.0,1.0,True,1,2019-06-23,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0067,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0067,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0067,total,money,35.80,True,4,6,3,0.5,0.5,False,2,35.80,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0068,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,3,0.5,0.5,False,2,lot 3 jln pelabur 23 1 40300 shah alam selangor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0068,company,org,gardenia bakeries kl,True,4,6,3,0.5,1.0,False,2,gardenia bakeries kl,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0068,date,date,2019-04-16,True,4,6,6,1.0,1.0,True,1,2019-04-16,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0068,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0068,tax,money,0.48,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,0.48,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0068,total,money,8.48,True,4,6,3,0.5,1.0,False,2,8.48,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0069,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,0.5,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0069,company,org,sanyu stationery shop,True,4,6,3,0.5,0.5,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0069,date,date,2018-10-16,True,4,6,6,1.0,1.0,True,1,2018-10-16,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0069,phone,phone,72497446,True,4,6,3,0.5,1.0,False,2,72497446,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0069,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0069,total,money,8.00,True,4,6,3,0.5,0.5,False,2,8.00,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0070,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,1.0,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0070,company,org,99 speed mart s b,True,4,6,3,0.5,1.0,False,2,99 speed mart s b,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0070,date,date,2019-03-20,True,4,6,6,1.0,1.0,True,1,2019-03-20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0070,phone,phone,84212854,True,4,6,3,0.5,0.5,False,2,84212854,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0070,tax,money,0.09,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,0.06,2,0.5,0.946394630357186,1,0.25,False,True,False,True,1
+synthetic/s7/0070,total,money,1.59,True,4,6,3,0.5,0.5,False,2,1.59,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0071,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,lot 276 jln banting 43800 dengkil selangor,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0071,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0071,date,date,2019-03-07,True,4,6,6,1.0,1.0,True,1,2019-03-07,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0071,phone,phone,54398248,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,54398248,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0071,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0071,total,money,6.50,True,4,6,6,1.0,1.0,True,1,6.50,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0072,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,0.5,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0072,company,org,ojc marketing,True,4,6,3,0.5,1.0,False,2,ojc marketing,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0072,date,date,2018-05-03,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,2018-05-03,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0072,phone,phone,58876057,True,4,6,3,0.5,0.5,False,2,58876057,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0072,tax,money,∅,False,4,6,2,0.3333333333333333,1.0,False,2,0.00,2,0.5,1.0,2,0.5,False,True,False,True,2
+synthetic/s7/0072,total,money,29.40,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,29.40,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0073,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,6,1.0,1.0,True,1,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0073,company,org,perniagaan zheng hui,True,4,6,3,0.5,1.0,False,2,perniagaan zheng hui,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0073,date,date,2018-08-23,True,4,6,6,1.0,1.0,True,1,2018-08-23,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0073,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0073,tax,money,1.20,True,4,6,6,1.0,1.0,True,1,1.20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0073,total,money,21.20,True,4,6,3,0.5,1.0,False,2,21.20,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0074,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0074,company,org,gardenia bakeries kl,True,4,6,3,0.5,1.0,False,2,gardenia bakeries kl,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0074,date,date,2019-11-08,True,4,6,3,0.5,0.5,False,2,2019-11-08,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0074,phone,phone,33634193,True,4,6,6,1.0,1.0,True,1,33634193,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0074,tax,money,1.28,True,4,6,6,1.0,1.0,True,1,1.28,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0074,total,money,22.68,True,4,6,6,1.0,1.0,True,1,22.68,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0075,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0075,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery shop,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0075,date,date,2019-06-11,True,4,6,6,1.0,1.0,True,1,2019-06-11,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0075,phone,phone,54041061,True,4,6,6,1.0,1.0,True,1,54041061,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0075,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0075,total,money,21.80,True,4,6,3,0.5,0.5,False,2,21.20,3,0.75,0.8112781244591328,0,0.0,False,False,False,True,1
+synthetic/s7/0076,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,0.5,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0076,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0076,date,date,2018-11-26,True,4,6,3,0.5,1.0,False,2,2018-11-26,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0076,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0076,tax,money,0.19,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,0.19,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0076,total,money,3.39,True,4,6,3,0.5,0.5,False,2,3.39,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0077,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,3,0.5,1.0,False,2,lot 276 jln banting 43800 dengkil selangor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0077,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0077,date,date,2019-05-26,True,4,6,6,1.0,1.0,True,1,2019-05-26,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0077,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0077,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0077,total,money,19.90,True,4,6,3,0.5,0.5,False,2,19.90,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0078,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0078,company,org,ojc marketing,True,4,6,6,1.0,1.0,True,1,ojc marketing,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0078,date,date,2019-04-20,True,4,6,3,0.5,1.0,False,2,2019-04-20,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0078,phone,phone,92635051,True,4,6,6,1.0,1.0,True,1,92635051,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0078,tax,money,0.82,True,4,6,6,1.0,1.0,True,1,0.87,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0078,total,money,14.42,True,4,6,3,0.5,1.0,False,2,14.42,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0079,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,1.0,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0079,company,org,perniagaan zheng hui,True,4,6,3,0.5,0.5,False,2,perniagaan zheng hui,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0079,date,date,2019-08-02,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,2019-02-08,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0079,phone,phone,33132579,True,4,6,6,1.0,1.0,True,1,33132579,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0079,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0079,total,money,22.90,True,4,6,6,1.0,1.0,True,1,22.90,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0080,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0080,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0080,date,date,2018-04-06,True,4,6,3,0.5,1.0,False,2,2018-04-06,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0080,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0080,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0080,total,money,42.20,True,4,6,3,0.5,1.0,False,2,42.20,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0081,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,0.5,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0081,company,org,sanyu stationery shop,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,sanyu stationery shop,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0081,date,date,2019-05-25,True,4,6,3,0.5,1.0,False,2,2019-05-25,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0081,phone,phone,42905019,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,542905019,2,0.5,0.946394630357186,0,0.0,False,False,False,True,1
+synthetic/s7/0081,tax,money,∅,False,4,6,6,1.0,1.0,True,1,5.30,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0081,total,money,30.20,True,4,6,6,1.0,1.0,True,1,30.20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0082,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,0.5,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0082,company,org,99 speed mart s b,True,4,6,3,0.5,0.5,False,2,99 speed mart s b,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0082,date,date,2019-04-19,True,4,6,6,1.0,1.0,True,1,2019-04-19,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0082,phone,phone,73362647,True,4,6,3,0.5,1.0,False,2,73362647,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0082,tax,money,1.28,True,4,6,6,1.0,1.0,True,1,1.28,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0082,total,money,22.68,True,4,6,6,1.0,1.0,True,1,22.68,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0083,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,3,0.5,1.0,False,2,lot 276 jln banting 43800 dengkil selangor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0083,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0083,date,date,2019-01-04,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,2019-01-04,2,0.5,1.0,0,0.0,False,False,True,True,2
+synthetic/s7/0083,phone,phone,31514105,True,4,6,6,1.0,1.0,True,1,31514105,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0083,tax,money,0.43,True,4,6,3,0.5,0.5,False,2,0.43,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0083,total,money,7.53,True,4,6,3,0.5,1.0,False,2,7.53,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0084,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,1.0,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0084,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0084,date,date,2018-06-03,True,4,6,6,1.0,1.0,True,1,2018-06-03,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0084,phone,phone,74584565,True,4,6,3,0.5,0.5,False,2,74584565,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0084,tax,money,2.84,True,4,6,3,0.5,0.5,False,2,2.84,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0084,total,money,50.24,True,4,6,3,0.5,0.5,False,2,50.24,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0085,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,1.0,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0085,company,org,perniagaan zheng hui,True,4,6,3,0.5,0.5,False,2,perniagaan zheng hui,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0085,date,date,2018-01-05,True,4,6,3,0.5,0.5,False,2,2018-01-05,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0085,phone,phone,39386361,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,39386361,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0085,tax,money,∅,False,4,6,2,0.3333333333333333,1.0,False,2,0.00,2,0.5,1.0,2,0.5,False,True,False,True,2
+synthetic/s7/0085,total,money,26.00,True,4,6,3,0.5,0.5,False,2,26.00,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0086,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0086,company,org,gardenia bakeries kl,True,4,6,3,0.5,0.5,False,2,gardenia bakeries kl,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0086,date,date,2019-10-06,True,4,6,6,1.0,1.0,True,1,2019-10-06,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0086,phone,phone,61647687,True,4,6,3,0.5,0.5,False,2,61647687,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0086,tax,money,0.19,True,4,6,3,0.5,1.0,False,2,0.19,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0086,total,money,3.39,True,4,6,3,0.5,0.5,False,2,3.39,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0087,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0087,company,org,sanyu stationery shop,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,sanyu stationery shop,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0087,date,date,2018-03-18,True,4,6,3,0.5,1.0,False,2,2018-03-18,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0087,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0087,tax,money,2.36,True,4,6,6,1.0,1.0,True,1,2.36,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0087,total,money,41.76,True,4,6,6,1.0,1.0,True,1,41.76,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0088,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0088,company,org,99 speed mart s b,True,4,6,3,0.5,0.5,False,2,99 speed mart s b,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0088,date,date,2019-05-02,True,4,6,3,0.5,0.5,False,2,2019-05-02,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0088,phone,phone,35443565,True,4,6,3,0.5,0.5,False,2,35443565,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0088,tax,money,2.29,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,0.00,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0088,total,money,40.39,True,4,6,6,1.0,1.0,True,1,40.39,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0089,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,lot 276 jln banting 43800 dengkil selangor,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0089,company,org,kedai papan yew chuan,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,kedai papan yew chuan,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0089,date,date,2019-10-13,True,4,6,6,1.0,1.0,True,1,2019-10-13,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0089,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0089,tax,money,∅,False,4,6,6,1.0,1.0,True,1,5.30,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0089,total,money,34.70,True,4,6,6,1.0,1.0,True,1,34.70,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0090,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,1.0,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0090,company,org,ojc marketing,True,4,6,3,0.5,1.0,False,2,ojc marketing,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0090,date,date,2018-06-20,True,4,6,6,1.0,1.0,True,1,2018-06-20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0090,phone,phone,32117287,True,4,6,6,1.0,1.0,True,1,32117287,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0090,tax,money,1.22,True,4,6,6,1.0,1.0,True,1,1.22,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0090,total,money,21.52,True,4,6,6,1.0,1.0,True,1,21.52,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0091,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,1.0,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0091,company,org,perniagaan zheng hui,True,4,6,3,0.5,1.0,False,2,perniagaan zheng hui,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0091,date,date,2018-03-10,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,2018-03-10,2,0.5,1.0,0,0.0,False,False,True,True,2
+synthetic/s7/0091,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0091,tax,money,1.75,True,4,6,6,1.0,1.0,True,1,1.75,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0091,total,money,30.95,True,4,6,3,0.5,1.0,False,2,30.95,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0092,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0092,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0092,date,date,2019-04-26,True,4,6,6,1.0,1.0,True,1,2019-04-26,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0092,phone,phone,72607284,True,4,6,6,1.0,1.0,True,1,72607284,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0092,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0092,total,money,17.70,True,4,6,3,0.5,1.0,False,2,17.70,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0093,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0093,company,org,sanyu stationery shop,True,4,6,3,0.5,0.5,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0093,date,date,2018-12-08,True,4,6,3,0.5,0.5,False,2,2018-12-08,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0093,phone,phone,67138466,True,4,6,6,1.0,1.0,True,1,67138466,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0093,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0093,total,money,1.50,True,4,6,3,0.5,0.5,False,2,1.50,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0094,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0094,company,org,99 speed mart s b,True,4,6,3,0.5,1.0,False,2,99 speed mart s b,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0094,date,date,2019-07-21,True,4,6,6,1.0,1.0,True,1,2019-07-21,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0094,phone,phone,62831382,True,4,6,6,1.0,1.0,True,1,62831382,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0094,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0094,total,money,24.60,True,4,6,3,0.5,0.5,False,2,24.60,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0095,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,3,0.5,1.0,False,2,lot 276 jln banting 43800 dengkil selangor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0095,company,org,kedai papan yew chuan,True,4,6,3,0.5,0.5,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0095,date,date,2019-04-15,True,4,6,6,1.0,1.0,True,1,2019-04-15,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0095,phone,phone,64742502,True,4,6,3,0.5,1.0,False,2,64742502,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0095,tax,money,2.69,True,4,6,3,0.5,1.0,False,2,2.69,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0095,total,money,47.59,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,47.52,2,0.5,0.946394630357186,0,0.0,False,False,False,True,1
+synthetic/s7/0096,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,0.5,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0096,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0096,date,date,2018-01-22,True,4,6,6,1.0,1.0,True,1,2018-01-22,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0096,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0096,tax,money,1.85,True,4,6,3,0.5,1.0,False,2,1.85,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0096,total,money,32.75,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,32.75,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0097,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,0.5,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0097,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,zheng hui,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0097,date,date,2018-11-13,True,4,6,6,1.0,1.0,True,1,2018-11-13,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0097,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0097,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0097,total,money,12.90,True,4,6,6,1.0,1.0,True,1,12.90,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0098,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,lot 3 jln pelabur 23 1 40300 shah alam,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0098,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0098,date,date,2018-05-16,True,4,6,6,1.0,1.0,True,1,2018-05-16,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0098,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0098,tax,money,2.06,True,4,6,6,1.0,1.0,True,1,2.01,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0098,total,money,36.36,True,4,6,6,1.0,1.0,True,1,36.36,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0099,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,0.5,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0099,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery shop,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0099,date,date,2018-08-09,True,4,6,6,1.0,1.0,True,1,2018-08-09,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0099,phone,phone,54811603,True,4,6,6,1.0,1.0,True,1,54811603,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0099,tax,money,1.45,True,4,6,6,1.0,1.0,True,1,1.45,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0099,total,money,25.65,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,25.65,2,0.5,1.0,0,0.0,False,False,True,True,2
+synthetic/s7/0100,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0100,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0100,date,date,2019-11-06,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,2019-06-11,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0100,phone,phone,89786894,True,4,6,3,0.5,0.5,False,2,89786894,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0100,tax,money,2.20,True,4,6,6,1.0,1.0,True,1,2.20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0100,total,money,38.80,True,4,6,6,1.0,1.0,True,1,38.80,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0101,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0101,company,org,kedai papan yew chuan,True,4,6,3,0.5,1.0,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0101,date,date,2018-12-19,True,4,6,6,1.0,1.0,True,1,2018-12-19,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0101,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0101,tax,money,2.50,True,4,6,3,0.5,1.0,False,2,2.50,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0101,total,money,44.20,True,4,6,6,1.0,1.0,True,1,44.20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0102,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0102,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0102,date,date,2019-02-11,True,4,6,3,0.5,0.5,False,2,2019-02-11,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0102,phone,phone,96285155,True,4,6,3,0.5,1.0,False,2,96285155,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0102,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0102,total,money,8.80,True,4,6,6,1.0,1.0,True,1,8.80,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0103,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,6,1.0,1.0,True,1,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0103,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0103,date,date,2018-06-22,True,4,6,6,1.0,1.0,True,1,2018-06-22,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0103,phone,phone,∅,False,4,6,6,1.0,1.0,True,1,312345678,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0103,tax,money,0.19,True,4,6,6,1.0,1.0,True,1,0.19,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0103,total,money,3.39,True,4,6,6,1.0,1.0,True,1,3.39,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0104,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,3,0.5,0.5,False,2,lot 3 jln pelabur 23 1 40300 shah alam selangor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0104,company,org,gardenia bakeries kl,True,4,6,3,0.5,0.5,False,2,gardenia bakeries kl,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0104,date,date,2018-01-12,True,4,6,6,1.0,1.0,True,1,2018-01-12,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0104,phone,phone,54112742,True,4,6,6,1.0,1.0,True,1,54112742,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0104,tax,money,1.75,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,1.75,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0104,total,money,30.95,True,4,6,6,1.0,1.0,True,1,30.95,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0105,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,0.5,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0105,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery shop,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0105,date,date,2019-07-08,True,4,6,6,1.0,1.0,True,1,2019-07-08,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0105,phone,phone,41144990,True,4,6,3,0.5,1.0,False,2,41144990,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0105,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0105,total,money,5.50,True,4,6,3,0.5,0.5,False,2,5.50,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0106,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,lot p t 2811 jln angsana tmn mutiara rini,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0106,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0106,date,date,2018-02-04,True,4,6,6,1.0,1.0,True,1,2018-02-04,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0106,phone,phone,96756739,True,4,6,3,0.5,1.0,False,2,96756739,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0106,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0106,total,money,28.50,True,4,6,3,0.5,1.0,False,2,28.50,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0107,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0107,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0107,date,date,2019-10-15,True,4,6,6,1.0,1.0,True,1,2019-10-15,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0107,phone,phone,62904893,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,62904893,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0107,tax,money,0.23,True,4,6,3,0.5,0.5,False,2,0.23,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0107,total,money,4.03,True,4,6,3,0.5,0.5,False,2,4.03,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0108,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0108,company,org,ojc marketing,True,4,6,6,1.0,1.0,True,1,ojc marketing,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0108,date,date,2018-10-01,True,4,6,3,0.5,1.0,False,2,2018-10-01,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0108,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0108,tax,money,2.06,True,4,6,3,0.5,0.5,False,2,2.06,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0108,total,money,36.36,True,4,6,6,1.0,1.0,True,1,36.36,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0109,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,no 59 jln permas 9 5 bdr baru permas jaya,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0109,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0109,date,date,2018-10-27,True,4,6,6,1.0,1.0,True,1,2018-10-27,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0109,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0109,tax,money,1.99,True,4,6,3,0.5,1.0,False,2,1.99,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0109,total,money,35.19,True,4,6,6,1.0,1.0,True,1,35.19,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0110,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0110,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0110,date,date,2019-07-01,True,4,6,6,1.0,1.0,True,1,2019-07-01,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0110,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0110,tax,money,3.33,True,4,6,6,1.0,1.0,True,1,3.33,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0110,total,money,58.83,True,4,6,6,1.0,1.0,True,1,58.83,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0111,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0111,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery shop,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0111,date,date,2019-02-02,True,4,6,6,1.0,1.0,True,1,2019-02-02,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0111,phone,phone,96355346,True,4,6,6,1.0,1.0,True,1,496355346,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0111,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0111,total,money,21.80,True,4,6,3,0.5,1.0,False,2,21.80,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0112,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,1.0,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0112,company,org,99 speed mart s b,True,4,6,3,0.5,0.5,False,2,99 speed mart s b,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0112,date,date,2018-09-03,True,4,6,6,1.0,1.0,True,1,2018-03-09,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0112,phone,phone,48646355,True,4,6,6,1.0,1.0,True,1,48646355,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0112,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0112,total,money,19.40,True,4,6,3,0.5,0.5,False,2,19.40,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0113,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,3,0.5,0.5,False,2,lot 276 jln banting 43800 dengkil selangor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0113,company,org,kedai papan yew chuan,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,kedai papan yew chuan,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0113,date,date,2019-04-20,True,4,6,6,1.0,1.0,True,1,2019-04-20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0113,phone,phone,83396042,True,4,6,3,0.5,0.5,False,2,83396042,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0113,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0113,total,money,34.20,True,4,6,3,0.5,1.0,False,2,34.20,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0114,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,0.5,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0114,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0114,date,date,2018-02-19,True,4,6,6,1.0,1.0,True,1,2018-02-19,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0114,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0114,tax,money,0.38,True,4,6,6,1.0,1.0,True,1,0.30,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0114,total,money,6.68,True,4,6,6,1.0,1.0,True,1,6.68,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0115,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,6,1.0,1.0,True,1,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0115,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0115,date,date,2018-01-23,True,4,6,3,0.5,1.0,False,2,2018-01-23,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0115,phone,phone,∅,False,4,6,6,1.0,1.0,True,1,312345678,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0115,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0115,total,money,2.30,True,4,6,6,1.0,1.0,True,1,2.30,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0116,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,lot 3 jln pelabur 23 1 40300 shah alam,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0116,company,org,gardenia bakeries kl,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,gardenia bakeries kl,2,0.5,1.0,0,0.0,False,False,True,True,2
+synthetic/s7/0116,date,date,2019-10-03,True,4,6,6,1.0,1.0,True,1,2019-10-03,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0116,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0116,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0116,total,money,34.30,True,4,6,6,1.0,1.0,True,1,34.30,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0117,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0117,company,org,sanyu stationery shop,True,4,6,3,0.5,0.5,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0117,date,date,2018-04-07,True,4,6,6,1.0,1.0,True,1,2018-04-07,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0117,phone,phone,∅,False,4,6,6,1.0,1.0,True,1,312345678,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0117,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0117,total,money,1.50,True,4,6,6,1.0,1.0,True,1,1.50,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0118,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0118,company,org,99 speed mart s b,True,4,6,3,0.5,1.0,False,2,99 speed mart s b,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0118,date,date,2019-05-21,True,4,6,6,1.0,1.0,True,1,2019-05-21,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0118,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0118,tax,money,0.14,True,4,6,6,1.0,1.0,True,1,0.14,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0118,total,money,2.44,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,2.44,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0119,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,3,0.5,0.5,False,2,lot 276 jln banting 43800 dengkil selangor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0119,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0119,date,date,2019-07-11,True,4,6,3,0.5,0.5,False,2,2019-07-11,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0119,phone,phone,88787029,True,4,6,6,1.0,1.0,True,1,88787029,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0119,tax,money,1.08,True,4,6,6,1.0,1.0,True,1,1.08,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0119,total,money,19.08,True,4,6,3,0.5,0.5,False,2,19.08,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0120,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0120,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0120,date,date,2019-08-17,True,4,6,6,1.0,1.0,True,1,2019-08-17,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0120,phone,phone,34558683,True,4,6,6,1.0,1.0,True,1,34558683,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0120,tax,money,1.28,True,4,6,6,1.0,1.0,True,1,1.28,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0120,total,money,22.68,True,4,6,3,0.5,0.5,False,2,22.68,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0121,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,2,0.3333333333333333,1.0,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0121,company,org,perniagaan zheng hui,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,perniagaan zheng hui,2,0.5,1.0,0,0.0,False,False,True,True,2
+synthetic/s7/0121,date,date,2018-04-19,True,4,6,3,0.5,1.0,False,2,2018-04-19,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0121,phone,phone,91551071,True,4,6,6,1.0,1.0,True,1,91551071,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0121,tax,money,0.42,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,0.42,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0121,total,money,7.42,True,4,6,6,1.0,1.0,True,1,7.42,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0122,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0122,company,org,gardenia bakeries kl,True,4,6,3,0.5,0.5,False,2,gardenia bakeries kl,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0122,date,date,2018-12-16,True,4,6,6,1.0,1.0,True,1,2018-12-16,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0122,phone,phone,93194793,True,4,6,6,1.0,1.0,True,1,93194793,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0122,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0122,total,money,48.20,True,4,6,6,1.0,1.0,True,1,48.20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0123,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,no 31g and 33g jln setia indah x u13 x,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0123,company,org,sanyu stationery shop,True,4,6,3,0.5,0.5,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0123,date,date,2019-02-21,True,4,6,6,1.0,1.0,True,1,2019-02-21,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0123,phone,phone,68632411,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,68632411,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0123,tax,money,1.08,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,1.08,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0123,total,money,19.08,True,4,6,6,1.0,1.0,True,1,19.08,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0124,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0124,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0124,date,date,2019-04-12,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,2019-04-12,2,0.5,1.0,0,0.0,False,False,True,True,2
+synthetic/s7/0124,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0124,tax,money,1.96,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,1.96,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0124,total,money,34.66,True,4,6,3,0.5,0.5,False,2,34.66,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0125,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,3,0.5,0.5,False,2,lot 276 jln banting 43800 dengkil selangor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0125,company,org,kedai papan yew chuan,True,4,6,3,0.5,0.5,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0125,date,date,2018-09-05,True,4,6,3,0.5,0.5,False,2,2018-09-05,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0125,phone,phone,78596297,True,4,6,3,0.5,0.5,False,2,78596297,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0125,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0125,total,money,37.40,True,4,6,6,1.0,1.0,True,1,37.40,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0126,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0126,company,org,ojc marketing,True,4,6,0,0.0,0.0,False,4,marketing,1,0.25,1.0,1,0.25,False,True,False,True,1
+synthetic/s7/0126,date,date,2018-05-23,True,4,6,6,1.0,1.0,True,1,2018-05-23,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0126,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0126,tax,money,∅,False,4,6,2,0.3333333333333333,1.0,False,2,10.00,2,0.5,1.0,2,0.5,False,True,False,True,2
+synthetic/s7/0126,total,money,21.20,True,4,6,6,1.0,1.0,True,1,21.20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0127,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0127,company,org,perniagaan zheng hui,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,perniagaan zheng hui,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0127,date,date,2018-12-10,True,4,6,3,0.5,1.0,False,2,2018-12-10,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0127,phone,phone,43416375,True,4,6,3,0.5,0.5,False,2,43416375,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0127,tax,money,1.27,True,4,6,6,1.0,1.0,True,1,1.27,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0127,total,money,22.47,True,4,6,6,1.0,1.0,True,1,22.47,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0128,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0128,company,org,gardenia bakeries kl,True,4,6,1,0.16666666666666666,0.0,False,3,∅,2,0.5,0.946394630357186,2,0.5,False,True,False,True,1
+synthetic/s7/0128,date,date,2018-11-06,True,4,6,6,1.0,1.0,True,1,2018-11-06,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0128,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0128,tax,money,∅,False,4,6,6,1.0,1.0,True,1,0.00,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0128,total,money,34.30,True,4,6,6,1.0,1.0,True,1,34.30,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0129,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0129,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0129,date,date,2018-04-09,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,2018-04-09,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0129,phone,phone,31127537,True,4,6,6,1.0,1.0,True,1,31127537,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0129,tax,money,0.39,True,4,6,3,0.5,0.5,False,2,0.39,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0129,total,money,6.89,True,4,6,6,1.0,1.0,True,1,6.89,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0130,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,0.5,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0130,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0130,date,date,2019-11-17,True,4,6,6,1.0,1.0,True,1,2019-11-17,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0130,phone,phone,49738045,True,4,6,3,0.5,0.5,False,2,49738045,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0130,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0130,total,money,23.20,True,4,6,6,1.0,1.0,True,1,23.20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0131,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0131,company,org,kedai papan yew chuan,True,4,6,3,0.5,0.5,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0131,date,date,2019-11-24,True,4,6,6,1.0,1.0,True,1,2019-11-24,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0131,phone,phone,64205256,True,4,6,3,0.5,1.0,False,2,64205256,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0131,tax,money,1.27,True,4,6,3,0.5,0.5,False,2,1.27,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0131,total,money,22.47,True,4,6,6,1.0,1.0,True,1,62.47,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0132,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0132,company,org,ojc marketing,True,4,6,6,1.0,1.0,True,1,ojc marketing,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0132,date,date,2019-04-14,True,4,6,6,1.0,1.0,True,1,2019-04-14,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0132,phone,phone,79797706,True,4,6,6,1.0,1.0,True,1,879797706,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0132,tax,money,1.67,True,4,6,3,0.5,0.5,False,2,1.67,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0132,total,money,29.57,True,4,6,3,0.5,0.5,False,2,29.57,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0133,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,6,1.0,1.0,True,1,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0133,company,org,perniagaan zheng hui,True,4,6,3,0.5,1.0,False,2,perniagaan zheng hui,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0133,date,date,2019-03-28,True,4,6,6,1.0,1.0,True,1,2019-03-28,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0133,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0133,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0133,total,money,21.40,True,4,6,3,0.5,0.5,False,2,21.40,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0134,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0134,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0134,date,date,2018-04-18,True,4,6,6,1.0,1.0,True,1,2018-04-18,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0134,phone,phone,48348794,True,4,6,6,1.0,1.0,True,1,48348794,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0134,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0134,total,money,19.50,True,4,6,6,1.0,1.0,True,1,19.50,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0135,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,1.0,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0135,company,org,sanyu stationery shop,True,4,6,3,0.5,1.0,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0135,date,date,2019-06-26,True,4,6,6,1.0,1.0,True,1,2019-06-26,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0135,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0135,tax,money,3.43,True,4,6,3,0.5,1.0,False,2,3.43,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0135,total,money,60.53,True,4,6,3,0.5,1.0,False,2,60.53,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0136,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0136,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0136,date,date,2018-11-12,True,4,6,3,0.5,0.5,False,2,2018-11-12,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0136,phone,phone,67436769,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,67436769,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0136,tax,money,1.87,True,4,6,6,1.0,1.0,True,1,1.87,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0136,total,money,32.97,True,4,6,6,1.0,1.0,True,1,32.97,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0137,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,lot 276 jln banting 43800 dengkil,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0137,company,org,kedai papan yew chuan,True,4,6,3,0.5,0.5,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0137,date,date,2019-05-08,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,2019-05-08,2,0.5,1.0,0,0.0,False,False,True,True,2
+synthetic/s7/0137,phone,phone,91704164,True,4,6,3,0.5,0.5,False,2,91704164,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0137,tax,money,1.48,True,4,6,6,1.0,1.0,True,1,1.48,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0137,total,money,26.08,True,4,6,6,1.0,1.0,True,1,26.08,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0138,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,0.5,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0138,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0138,date,date,2018-04-24,True,4,6,6,1.0,1.0,True,1,2018-04-24,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0138,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0138,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0138,total,money,26.90,True,4,6,3,0.5,1.0,False,2,26.90,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0139,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,no 59 jln permas 9 5 bdr baru permas jaya,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0139,company,org,perniagaan zheng hui,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,perniagaan zheng hui,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0139,date,date,2019-12-09,True,4,6,6,1.0,1.0,True,1,2019-12-09,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0139,phone,phone,∅,False,4,6,3,0.5,1.0,False,2,312345678,3,0.75,0.8112781244591328,1,0.25,False,True,False,True,1
+synthetic/s7/0139,tax,money,3.14,True,4,6,6,1.0,1.0,True,1,3.14,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0139,total,money,55.44,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,55.44,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0140,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,3,0.5,0.5,False,2,lot 3 jln pelabur 23 1 40300 shah alam selangor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0140,company,org,gardenia bakeries kl,True,4,6,3,0.5,0.5,False,2,bakeries kl,3,0.75,0.8112781244591328,0,0.0,False,False,False,True,1
+synthetic/s7/0140,date,date,2019-05-21,True,4,6,6,1.0,1.0,True,1,2019-05-21,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0140,phone,phone,59747309,True,4,6,3,0.5,1.0,False,2,59747309,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0140,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0140,total,money,16.00,True,4,6,6,1.0,1.0,True,1,16.00,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0141,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,0.5,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0141,company,org,sanyu stationery shop,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,sanyu stationery shop,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0141,date,date,2019-03-11,True,4,6,3,0.5,0.5,False,2,2019-03-11,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0141,phone,phone,53562663,True,4,6,6,1.0,1.0,True,1,53562663,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0141,tax,money,0.09,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,0.09,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0141,total,money,1.59,True,4,6,3,0.5,0.5,False,2,1.59,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0142,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0142,company,org,99 speed mart s b,True,4,6,3,0.5,0.5,False,2,99 speed mart s b,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0142,date,date,2019-08-06,True,4,6,3,0.5,0.5,False,2,2019-08-06,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0142,phone,phone,87222481,True,4,6,6,1.0,1.0,True,1,87222481,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0142,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0142,total,money,8.00,True,4,6,6,1.0,1.0,True,1,8.00,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0143,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,3,0.5,1.0,False,2,lot 276 jln banting 43800 dengkil selangor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0143,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0143,date,date,2018-05-27,True,4,6,3,0.5,1.0,False,2,2018-05-27,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0143,phone,phone,33707865,True,4,6,6,1.0,1.0,True,1,33707865,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0143,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0143,total,money,16.00,True,4,6,6,1.0,1.0,True,1,16.00,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0144,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0144,company,org,ojc marketing,True,4,6,3,0.5,1.0,False,2,ojc marketing,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0144,date,date,2018-09-16,True,4,6,6,1.0,1.0,True,1,2018-09-16,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0144,phone,phone,79831108,True,4,6,6,1.0,1.0,True,1,79831108,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0144,tax,money,2.33,True,4,6,6,1.0,1.0,True,1,2.33,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0144,total,money,41.23,True,4,6,6,1.0,1.0,True,1,41.23,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0145,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0145,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0145,date,date,2019-10-23,True,4,6,3,0.5,1.0,False,2,2019-10-23,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0145,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0145,tax,money,0.62,True,4,6,6,1.0,1.0,True,1,0.62,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0145,total,money,10.92,True,4,6,6,1.0,1.0,True,1,10.92,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0146,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0146,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0146,date,date,2018-11-12,True,4,6,6,1.0,1.0,True,1,2018-11-12,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0146,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0146,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0146,total,money,1.50,True,4,6,3,0.5,1.0,False,2,1.50,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0147,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0147,company,org,sanyu stationery shop,True,4,6,3,0.5,1.0,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0147,date,date,2018-08-16,True,4,6,3,0.5,1.0,False,2,2018-08-16,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0147,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0147,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0147,total,money,3.20,True,4,6,6,1.0,1.0,True,1,3.20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0148,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0148,company,org,99 speed mart s b,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,99 speed mart,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0148,date,date,2019-06-12,True,4,6,6,1.0,1.0,True,1,2019-06-12,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0148,phone,phone,39465737,True,4,6,3,0.5,0.5,False,2,39465737,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0148,tax,money,0.58,True,4,6,3,0.5,1.0,False,2,0.58,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0148,total,money,10.28,True,4,6,3,0.5,0.5,False,2,10.28,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0149,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0149,company,org,kedai papan yew chuan,True,4,6,3,0.5,0.5,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0149,date,date,2019-06-13,True,4,6,6,1.0,1.0,True,1,2019-06-13,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0149,phone,phone,58305902,True,4,6,6,1.0,1.0,True,1,58305902,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0149,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0149,total,money,26.00,True,4,6,6,1.0,1.0,True,1,26.00,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0150,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,0.5,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0150,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0150,date,date,2019-01-03,True,4,6,3,0.5,0.5,False,2,2019-01-03,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0150,phone,phone,67231985,True,4,6,3,0.5,1.0,False,2,67231985,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0150,tax,money,0.71,True,4,6,6,1.0,1.0,True,1,0.71,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0150,total,money,12.51,True,4,6,3,0.5,0.5,False,2,12.51,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0151,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,1.0,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0151,company,org,perniagaan zheng hui,True,4,6,3,0.5,0.5,False,2,perniagaan zheng hui,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0151,date,date,2018-10-13,True,4,6,6,1.0,1.0,True,1,2018-10-13,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0151,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0151,tax,money,0.19,True,4,6,3,0.5,0.5,False,2,0.19,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0151,total,money,3.39,True,4,6,3,0.5,1.0,False,2,3.39,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0152,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,lot 3 jln pelabur 23 1 40300 shah alam,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0152,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0152,date,date,2018-11-04,True,4,6,6,1.0,1.0,True,1,2018-11-04,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0152,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0152,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0152,total,money,21.40,True,4,6,6,1.0,1.0,True,1,21.40,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0153,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,1.0,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0153,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery shop,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0153,date,date,2019-03-28,True,4,6,6,1.0,1.0,True,1,2019-03-28,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0153,phone,phone,77571894,True,4,6,3,0.5,0.5,False,2,77571894,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0153,tax,money,1.36,True,4,6,6,1.0,1.0,True,1,1.36,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0153,total,money,23.96,True,4,6,3,0.5,1.0,False,2,23.96,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0154,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,0.5,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0154,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0154,date,date,2019-02-02,True,4,6,2,0.3333333333333333,1.0,False,2,2019-02-02,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0154,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0154,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0154,total,money,30.90,True,4,6,3,0.5,0.5,False,2,30.90,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0155,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0155,company,org,kedai papan yew chuan,True,4,6,3,0.5,0.5,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0155,date,date,2018-07-25,True,4,6,6,1.0,1.0,True,1,2018-07-25,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0155,phone,phone,35371078,True,4,6,3,0.5,1.0,False,2,35371078,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0155,tax,money,0.29,True,4,6,6,1.0,1.0,True,1,0.29,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0155,total,money,5.09,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,5.09,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0156,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,0.5,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0156,company,org,ojc marketing,True,4,6,6,1.0,1.0,True,1,marketing,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0156,date,date,2018-02-04,True,4,6,3,0.5,0.5,False,2,2018-02-04,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0156,phone,phone,73488385,True,4,6,6,1.0,1.0,True,1,73488385,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0156,tax,money,0.14,True,4,6,6,1.0,1.0,True,1,0.14,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0156,total,money,2.44,True,4,6,6,1.0,1.0,True,1,1.24,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0157,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,6,1.0,1.0,True,1,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0157,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0157,date,date,2018-06-02,True,4,6,6,1.0,1.0,True,1,2018-06-02,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0157,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0157,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0157,total,money,6.50,True,4,6,6,1.0,1.0,True,1,6.50,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0158,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,3,0.5,0.5,False,2,lot 3 jln pelabur 23 1 40300 shah alam selangor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0158,company,org,gardenia bakeries kl,True,4,6,3,0.5,0.5,False,2,gardenia bakeries kl,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0158,date,date,2018-12-02,True,4,6,3,0.5,0.5,False,2,2018-12-02,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0158,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0158,tax,money,0.09,True,4,6,3,0.5,0.5,False,2,0.09,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0158,total,money,1.59,True,4,6,6,1.0,1.0,True,1,1.59,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0159,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0159,company,org,sanyu stationery shop,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,sanyu stationery,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0159,date,date,2018-05-10,True,4,6,6,1.0,1.0,True,1,2018-05-10,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0159,phone,phone,42482912,True,4,6,6,1.0,1.0,True,1,42482912,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0159,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0159,total,money,31.70,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,31.70,2,0.5,1.0,0,0.0,False,False,True,True,2
+synthetic/s7/0160,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0160,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,speed mart s b,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0160,date,date,2019-07-21,True,4,6,6,1.0,1.0,True,1,2019-07-21,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0160,phone,phone,88206440,True,4,6,6,1.0,1.0,True,1,88206440,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0160,tax,money,2.10,True,4,6,6,1.0,1.0,True,1,2.10,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0160,total,money,37.10,True,4,6,3,0.5,0.5,False,2,37.10,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0161,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0161,company,org,kedai papan yew chuan,True,4,6,3,0.5,0.5,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0161,date,date,2019-03-27,True,4,6,6,1.0,1.0,True,1,2019-03-27,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0161,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0161,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0161,total,money,47.40,True,4,6,3,0.5,0.5,False,2,47.40,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0162,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,0.5,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0162,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0162,date,date,2019-05-11,True,4,6,6,1.0,1.0,True,1,2019-05-11,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0162,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0162,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0162,total,money,15.10,True,4,6,6,1.0,1.0,True,1,15.10,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0163,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,0.5,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0163,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0163,date,date,2019-09-28,True,4,6,6,1.0,1.0,True,1,2019-09-28,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0163,phone,phone,98684834,True,4,6,6,1.0,1.0,True,1,98684834,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0163,tax,money,2.45,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,2.45,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0163,total,money,43.25,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,43.25,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0164,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,lot 3 jln pelabur 23 1 40300 shah alam,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0164,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0164,date,date,2019-07-22,True,4,6,6,1.0,1.0,True,1,2019-07-22,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0164,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0164,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0164,total,money,11.30,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,11.30,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0165,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,no 31g and 33g jln setia indah x u13 x 40170 setia alam,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0165,company,org,sanyu stationery shop,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,sanyu stationery shop,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0165,date,date,2018-06-18,True,4,6,3,0.5,1.0,False,2,2018-06-18,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0165,phone,phone,96346259,True,4,6,6,1.0,1.0,True,1,96346259,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0165,tax,money,1.67,True,4,6,3,0.5,0.5,False,2,1.67,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0165,total,money,29.57,True,4,6,6,1.0,1.0,True,1,29.57,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0166,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0166,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0166,date,date,2018-04-07,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,2018-04-07,2,0.5,1.0,0,0.0,False,False,True,True,2
+synthetic/s7/0166,phone,phone,76776880,True,4,6,6,1.0,1.0,True,1,76776880,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0166,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0166,total,money,17.70,True,4,6,3,0.5,1.0,False,2,17.70,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0167,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,2,0.3333333333333333,1.0,False,2,lot 276 jln banting 43800 dengkil selangor,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0167,company,org,kedai papan yew chuan,True,4,6,3,0.5,1.0,False,2,kedai papan yew chuan,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0167,date,date,2018-03-28,True,4,6,6,1.0,1.0,True,1,2018-03-28,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0167,phone,phone,85742339,True,4,6,3,0.5,1.0,False,2,85742339,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0167,tax,money,0.29,True,4,6,6,1.0,1.0,True,1,0.29,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0167,total,money,5.09,True,4,6,6,1.0,1.0,True,1,5.09,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0168,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0168,company,org,ojc marketing,True,4,6,6,1.0,1.0,True,1,ojc marketing,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0168,date,date,2019-06-01,True,4,6,6,1.0,1.0,True,1,2019-06-01,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0168,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0168,tax,money,0.77,True,4,6,6,1.0,1.0,True,1,0.77,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0168,total,money,13.67,True,4,6,3,0.5,0.5,False,2,13.67,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0169,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,1.0,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0169,company,org,perniagaan zheng hui,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,perniagaan zheng hui,2,0.5,1.0,0,0.0,False,False,True,True,2
+synthetic/s7/0169,date,date,2019-04-19,True,4,6,6,1.0,1.0,True,1,2019-04-19,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0169,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0169,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0169,total,money,26.10,True,4,6,6,1.0,1.0,True,1,26.10,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0170,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0170,company,org,gardenia bakeries kl,True,4,6,3,0.5,0.5,False,2,gardenia bakeries kl,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0170,date,date,2018-04-11,True,4,6,6,1.0,1.0,True,1,2018-04-11,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0170,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0170,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0170,total,money,53.80,True,4,6,2,0.3333333333333333,1.0,False,2,53.80,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0171,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,0.5,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0171,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery shop,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0171,date,date,2019-10-28,True,4,6,3,0.5,1.0,False,2,2019-10-28,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0171,phone,phone,81919298,True,4,6,3,0.5,0.5,False,2,81919298,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0171,tax,money,0.77,True,4,6,6,1.0,1.0,True,1,0.77,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0171,total,money,13.67,True,4,6,3,0.5,0.5,False,2,13.67,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0172,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,0.5,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0172,company,org,99 speed mart s b,True,4,6,3,0.5,0.5,False,2,99 speed mart s b,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0172,date,date,2019-03-28,True,4,6,3,0.5,1.0,False,2,2019-03-28,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0172,phone,phone,51601455,True,4,6,6,1.0,1.0,True,1,51601455,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0172,tax,money,0.97,True,4,6,6,1.0,1.0,True,1,0.97,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0172,total,money,17.07,True,4,6,6,1.0,1.0,True,1,17.07,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0173,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,6,1.0,1.0,True,1,lot 276 jln banting 43800 dengkil,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0173,company,org,kedai papan yew chuan,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,kedai papan yew chuan,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0173,date,date,2019-12-23,True,4,6,6,1.0,1.0,True,1,2019-12-23,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0173,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0173,tax,money,0.77,True,4,6,6,1.0,1.0,True,1,0.77,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0173,total,money,13.67,True,4,6,6,1.0,1.0,True,1,13.67,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0174,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0174,company,org,ojc marketing,True,4,6,6,1.0,1.0,True,1,ojc marketing,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0174,date,date,2019-10-19,True,4,6,6,1.0,1.0,True,1,2019-10-19,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0174,phone,phone,34838885,True,4,6,6,1.0,1.0,True,1,34838885,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0174,tax,money,0.29,True,4,6,3,0.5,1.0,False,2,0.29,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0174,total,money,5.09,True,4,6,6,1.0,1.0,True,1,5.09,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0175,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,1.0,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0175,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0175,date,date,2018-03-08,True,4,6,6,1.0,1.0,True,1,2018-03-08,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0175,phone,phone,79877112,True,4,6,3,0.5,0.5,False,2,79877112,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0175,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0175,total,money,39.00,True,4,6,1,0.16666666666666666,0.0,False,3,∅,2,0.5,0.946394630357186,2,0.5,False,True,False,True,1
+synthetic/s7/0176,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,3,0.5,0.5,False,2,lot 3 jln pelabur 23 1 40300 shah alam selangor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0176,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0176,date,date,2018-07-04,True,4,6,6,1.0,1.0,True,1,2018-07-04,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0176,phone,phone,45882894,True,4,6,6,1.0,1.0,True,1,45882894,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0176,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0176,total,money,4.80,True,4,6,3,0.5,0.5,False,2,4.80,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0177,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0177,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery shop,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0177,date,date,2018-04-11,True,4,6,3,0.5,1.0,False,2,2018-04-11,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0177,phone,phone,43727852,True,4,6,1,0.16666666666666666,0.16666666666666666,False,3,43727852,2,0.5,0.946394630357186,0,0.0,False,False,True,True,2
+synthetic/s7/0177,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0177,total,money,11.30,True,4,6,3,0.5,1.0,False,2,11.30,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0178,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0178,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0178,date,date,2019-05-01,True,4,6,3,0.5,1.0,False,2,2019-05-01,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0178,phone,phone,62163512,True,4,6,6,1.0,1.0,True,1,62163512,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0178,tax,money,0.62,True,4,6,6,1.0,1.0,True,1,0.62,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0178,total,money,10.92,True,4,6,3,0.5,0.5,False,2,10.92,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0179,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,3,0.5,0.5,False,2,lot 276 jln banting 43800 dengkil selangor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0179,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0179,date,date,2018-11-26,True,4,6,3,0.5,1.0,False,2,2018-11-26,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0179,phone,phone,53444901,True,4,6,3,0.5,0.5,False,2,53444901,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0179,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0179,total,money,23.20,True,4,6,6,1.0,1.0,True,1,23.20,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0180,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,2,0.3333333333333333,1.0,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0180,company,org,ojc marketing,True,4,6,6,1.0,1.0,True,1,ojc marketing,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0180,date,date,2018-03-14,True,4,6,6,1.0,1.0,True,1,2018-03-14,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0180,phone,phone,72438258,True,4,6,3,0.5,0.5,False,2,72438258,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0180,tax,money,1.31,True,4,6,3,0.5,1.0,False,2,1.31,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0180,total,money,23.11,True,4,6,6,1.0,1.0,True,1,23.11,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0181,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,6,1.0,1.0,True,1,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0181,company,org,perniagaan zheng hui,True,4,6,3,0.5,0.5,False,2,perniagaan zheng hui,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0181,date,date,2019-06-06,True,4,6,6,1.0,1.0,True,1,2019-06-06,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0181,phone,phone,49633951,True,4,6,3,0.5,0.5,False,2,49633951,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0181,tax,money,1.28,True,4,6,6,1.0,1.0,True,1,1.28,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0181,total,money,22.68,True,4,6,6,1.0,1.0,True,1,22.68,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0182,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0182,company,org,gardenia bakeries kl,True,4,6,1,0.16666666666666666,0.0,False,3,∅,2,0.5,0.946394630357186,2,0.5,False,True,False,True,1
+synthetic/s7/0182,date,date,2018-03-23,True,4,6,3,0.5,1.0,False,2,2018-03-23,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0182,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0182,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0182,total,money,12.90,True,4,6,6,1.0,1.0,True,1,12.90,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0183,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0183,company,org,sanyu stationery shop,True,4,6,3,0.5,1.0,False,2,sanyu stationery shop,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0183,date,date,2018-10-05,True,4,6,6,1.0,1.0,True,1,2018-10-05,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0183,phone,phone,98381907,True,4,6,6,1.0,1.0,True,1,98381907,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0183,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0183,total,money,26.10,True,4,6,6,1.0,1.0,True,1,26.10,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0184,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0184,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0184,date,date,2019-11-10,True,4,6,3,0.5,1.0,False,2,2019-11-10,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0184,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0184,tax,money,0.09,True,4,6,3,0.5,1.0,False,2,0.09,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0184,total,money,1.59,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,1.59,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0185,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,lot 276 jln banting 43800 dengkil,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0185,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0185,date,date,2019-03-08,True,4,6,6,1.0,1.0,True,1,2019-03-08,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0185,phone,phone,91046835,True,4,6,2,0.3333333333333333,0.3333333333333333,False,2,891046835,2,0.5,1.0,0,0.0,False,False,False,True,2
+synthetic/s7/0185,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0185,total,money,2.30,True,4,6,3,0.5,0.5,False,2,2.30,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0186,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,1.0,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0186,company,org,ojc marketing,True,4,6,6,1.0,1.0,True,1,ojc marketing,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0186,date,date,2019-02-03,True,4,6,6,1.0,1.0,True,1,2019-02-03,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0186,phone,phone,91625776,True,4,6,6,1.0,1.0,True,1,91625776,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0186,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0186,total,money,39.40,True,4,6,3,0.5,0.5,False,2,39.40,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0187,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,0.5,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0187,company,org,perniagaan zheng hui,True,4,6,6,1.0,1.0,True,1,perniagaan zheng hui,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0187,date,date,2018-09-15,True,4,6,6,1.0,1.0,True,1,2018-09-15,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0187,phone,phone,42712682,True,4,6,3,0.5,1.0,False,2,42712682,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0187,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0187,total,money,14.40,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,14.40,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0188,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,6,1.0,1.0,True,1,lot 3 jln pelabur 23 1 40300 shah alam selangor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0188,company,org,gardenia bakeries kl,True,4,6,6,1.0,1.0,True,1,gardenia bakeries kl,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0188,date,date,2018-01-27,True,4,6,2,0.3333333333333333,1.0,False,2,2018-01-27,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0188,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0188,tax,money,0.19,True,4,6,6,1.0,1.0,True,1,9.19,4,1.0,0.0,0,0.0,False,False,False,False,0
+synthetic/s7/0188,total,money,3.39,True,4,6,6,1.0,1.0,True,1,3.39,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0189,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,3,0.5,0.5,False,2,no 31g and 33g jln setia indah x u13 x 40170 setia alam,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0189,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery shop,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0189,date,date,2019-04-17,True,4,6,6,1.0,1.0,True,1,2019-04-17,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0189,phone,phone,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0189,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0189,total,money,18.00,True,4,6,6,1.0,1.0,True,1,18.00,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0190,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,6,1.0,1.0,True,1,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0190,company,org,99 speed mart s b,True,4,6,3,0.5,0.5,False,2,99 speed mart s b,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0190,date,date,2019-08-15,True,4,6,3,0.5,1.0,False,2,2019-08-15,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0190,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0190,tax,money,0.77,True,4,6,3,0.5,0.5,False,2,0.77,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0190,total,money,13.67,True,4,6,0,0.0,0.0,False,4,12.47,1,0.25,1.0,1,0.25,False,True,False,True,1
+synthetic/s7/0191,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,2,0.3333333333333333,1.0,False,2,lot 276 jln banting 43800 dengkil selangor,2,0.5,1.0,2,0.5,False,True,True,True,2
+synthetic/s7/0191,company,org,kedai papan yew chuan,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,kedai papan yew chuan,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0191,date,date,2018-04-28,True,4,6,6,1.0,1.0,True,1,2018-04-28,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0191,phone,phone,76381593,True,4,6,6,1.0,1.0,True,1,76381593,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0191,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0191,total,money,39.00,True,4,6,6,1.0,1.0,True,1,39.00,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0192,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,6,1.0,1.0,True,1,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0192,company,org,ojc marketing,True,4,6,3,0.5,0.5,False,2,ojc marketing,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0192,date,date,2018-07-11,True,4,6,3,0.5,0.5,False,2,2018-07-11,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0192,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0192,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0192,total,money,32.70,True,4,6,3,0.5,0.5,False,2,32.70,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0193,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,3,0.5,1.0,False,2,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0193,company,org,perniagaan zheng hui,True,4,6,3,0.5,0.5,False,2,perniagaan zheng hui,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0193,date,date,2018-09-11,True,4,6,6,1.0,1.0,True,1,2018-09-11,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0193,phone,phone,36434071,True,4,6,3,0.5,1.0,False,2,36434071,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0193,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0193,total,money,29.40,True,4,6,3,0.5,1.0,False,2,29.40,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0194,address,address,lot 3 jln pelabur 23 1 40300 shah alam selangor,True,4,6,3,0.5,0.5,False,2,lot 3 jln pelabur 23 1 40300 shah alam selangor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0194,company,org,gardenia bakeries kl,True,4,6,3,0.5,0.5,False,2,gardenia bakeries kl,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0194,date,date,2018-09-07,True,4,6,6,1.0,1.0,True,1,2018-09-07,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0194,phone,phone,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0194,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0194,total,money,5.50,True,4,6,6,1.0,1.0,True,1,5.50,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0195,address,address,no 31g and 33g jln setia indah x u13 x 40170 setia alam,True,4,6,6,1.0,1.0,True,1,no 31g and 33g jln setia indah x u13 x 40170 setia alam,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0195,company,org,sanyu stationery shop,True,4,6,6,1.0,1.0,True,1,sanyu stationery shop,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0195,date,date,2018-01-26,True,4,6,3,0.5,1.0,False,2,2018-01-26,3,0.75,0.8112781244591328,1,0.25,False,True,True,True,3
+synthetic/s7/0195,phone,phone,33562993,True,4,6,6,1.0,1.0,True,1,33562993,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0195,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0195,total,money,29.30,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,29.30,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0196,address,address,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,True,4,6,3,0.5,0.5,False,2,lot p t 2811 jln angsana tmn mutiara rini 81300 skudai,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0196,company,org,99 speed mart s b,True,4,6,6,1.0,1.0,True,1,99 speed mart s b,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0196,date,date,2019-01-08,True,4,6,6,1.0,1.0,True,1,2019-01-08,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0196,phone,phone,37089417,True,4,6,6,1.0,1.0,True,1,37089417,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0196,tax,money,0.39,True,4,6,6,1.0,1.0,True,1,0.39,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0196,total,money,6.89,True,4,6,6,1.0,1.0,True,1,6.89,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0197,address,address,lot 276 jln banting 43800 dengkil selangor,True,4,6,3,0.5,0.5,False,2,lot 276 jln banting 43800 dengkil selangor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0197,company,org,kedai papan yew chuan,True,4,6,6,1.0,1.0,True,1,kedai papan yew chuan,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0197,date,date,2018-09-19,True,4,6,6,1.0,1.0,True,1,2018-09-19,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0197,phone,phone,53492439,True,4,6,6,1.0,1.0,True,1,53492439,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0197,tax,money,∅,False,4,6,3,0.5,,False,2,∅,3,0.75,0.8112781244591328,3,0.75,False,True,True,True,3
+synthetic/s7/0197,total,money,26.50,True,4,6,6,1.0,1.0,True,1,26.50,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0198,address,address,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,4,6,3,0.5,0.5,False,2,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0198,company,org,ojc marketing,True,4,6,6,1.0,1.0,True,1,ojc marketing,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0198,date,date,2018-08-27,True,4,6,6,1.0,1.0,True,1,2018-08-27,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0198,phone,phone,75898683,True,4,6,6,1.0,1.0,True,1,75898683,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0198,tax,money,1.80,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,1.80,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0198,total,money,31.80,True,4,6,1,0.16666666666666666,0.0,False,3,∅,2,0.5,0.946394630357186,2,0.5,False,True,False,True,1
+synthetic/s7/0199,address,address,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,4,6,6,1.0,1.0,True,1,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0199,company,org,perniagaan zheng hui,True,4,6,1,0.16666666666666666,0.3333333333333333,False,3,perniagaan zheng hui,2,0.5,0.946394630357186,1,0.25,False,True,True,True,2
+synthetic/s7/0199,date,date,2018-04-11,True,4,6,3,0.5,0.5,False,2,2018-04-11,3,0.75,0.8112781244591328,0,0.0,False,False,True,True,3
+synthetic/s7/0199,phone,phone,74339051,True,4,6,6,1.0,1.0,True,1,74339051,4,1.0,0.0,0,0.0,False,False,True,True,4
+synthetic/s7/0199,tax,money,∅,False,4,6,6,1.0,,True,1,∅,4,1.0,0.0,4,1.0,True,True,True,True,4
+synthetic/s7/0199,total,money,38.10,True,4,6,6,1.0,1.0,True,1,38.10,4,1.0,0.0,0,0.0,False,False,True,True,4

@@ -1,0 +1,9 @@
+parameter,value
+gemma4-e4b-detailed-image|p(null->null),0.5
+gemma4-e4b-detailed-image|p(pop->pop),0.98
+qwen27b-detailed-image|p(null->null),0.5
+qwen27b-detailed-image|p(pop->pop),0.98
+qwen4b-detailed-both|p(null->null),0.5
+qwen4b-detailed-both|p(pop->pop),0.98
+qwen4b-detailed-image|p(null->null),0.5
+qwen4b-detailed-image|p(pop->pop),0.98

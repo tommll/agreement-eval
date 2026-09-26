@@ -1,0 +1,5 @@
+config_id,ds_estimated_reliability,true_accuracy
+gemma4-e4b-detailed-image,0.6042052307938002,0.5833333333333334
+qwen27b-detailed-image,0.999,0.9375
+qwen4b-detailed-both,0.8958874960003212,0.8958333333333334
+qwen4b-detailed-image,0.9166235176544624,0.875

@@ -1,0 +1,48 @@
+# FUNSD noisy scanned forms. Most schema fields are absent on most forms, so
+# this run is the null-heavy counterpart to SROIE - the regime where an
+# agreement metric looks best and means least.
+#
+# Download the dataset first (it is not on the HF datasets-server path used
+# for SROIE) and point `ingest.root` at the extracted directory:
+#   https://guillaumejaume.github.io/FUNSD/
+run_id: funsd-v1
+dataset: funsd
+schema: funsd
+split: testing
+limit: 50
+concurrency: 6
+notes: "FUNSD testing split, OCR text input"
+
+ingest:
+  root: data/raw/funsd
+
+configs:
+  - id: opus5-detailed
+    provider: anthropic
+    model: claude-opus-5
+    prompt: detailed
+    input_mode: text
+    effort: medium
+  - id: opus5-evidence
+    provider: anthropic
+    model: claude-opus-5
+    prompt: evidence
+    input_mode: text
+    effort: medium
+  - id: sonnet5-detailed
+    provider: anthropic
+    model: claude-sonnet-5
+    prompt: detailed
+    input_mode: text
+    effort: medium
+  - id: haiku45-detailed
+    provider: anthropic
+    model: claude-haiku-4-5
+    prompt: detailed
+    input_mode: text
+    effort: null
+
+judge:
+  enabled: true
+  model: claude-opus-5
+  effort: low

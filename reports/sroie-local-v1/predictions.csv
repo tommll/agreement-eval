@@ -1,0 +1,138 @@
+doc_id,field,field_type,config_id,value_raw,value_norm,is_null,evidence,gold_raw,dataset,split,gold_norm,gold_populated,pred_populated,correct,jaccard_gold,correct_jaccard,error_kind,correct_judge
+sroie/test/X00016469670,address,address,qwen4b-detailed-t0,NO 2 & 4 BANDAR SERI ALAM 81750 MASAI,no 2 and 4 bdr seri alam 81750 masai,False,,"NO 2 & 4, JALAN BAYU 4, BANDAR SERI ALAM, B1750 MASAI, JOHOR",sroie,test,no 2 and 4 jln bayu 4 bdr seri alam b1750 masai johor,True,True,False,0.6153846153846154,False,wrong_value,False
+sroie/test/X00016469670,address,address,qwen4b-detailed-t08,NO 2 & 4 BANDAR SERI ALAM 81750 MASAI,no 2 and 4 bdr seri alam 81750 masai,False,,"NO 2 & 4, JALAN BAYU 4, BANDAR SERI ALAM, B1750 MASAI, JOHOR",sroie,test,no 2 and 4 jln bayu 4 bdr seri alam b1750 masai johor,True,True,False,0.6153846153846154,False,wrong_value,False
+sroie/test/X00016469670,address,address,qwen4b-terse-t0,,,True,,"NO 2 & 4, JALAN BAYU 4, BANDAR SERI ALAM, B1750 MASAI, JOHOR",sroie,test,no 2 and 4 jln bayu 4 bdr seri alam b1750 masai johor,True,False,False,0.0,False,miss,False
+sroie/test/X00016469670,company,org,qwen4b-detailed-t0,OJC MARKETING SDN BHD,ojc marketing,False,,OJC MARKETING SDN BHD,sroie,test,ojc marketing,True,True,True,1.0,True,none,True
+sroie/test/X00016469670,company,org,qwen4b-detailed-t08,OJC MARKETING SDN BHD,ojc marketing,False,,OJC MARKETING SDN BHD,sroie,test,ojc marketing,True,True,True,1.0,True,none,True
+sroie/test/X00016469670,company,org,qwen4b-terse-t0,THE PEAK QUARRY WORKS,the peak quarry works,False,,OJC MARKETING SDN BHD,sroie,test,ojc marketing,True,True,False,0.0,False,wrong_value,False
+sroie/test/X00016469670,date,date,qwen4b-detailed-t0,15/01/2019,2019-01-15,False,,15/01/2019,sroie,test,2019-01-15,True,True,True,1.0,True,none,True
+sroie/test/X00016469670,date,date,qwen4b-detailed-t08,15/01/2019,2019-01-15,False,,15/01/2019,sroie,test,2019-01-15,True,True,True,1.0,True,none,True
+sroie/test/X00016469670,date,date,qwen4b-terse-t0,15/01/2019,2019-01-15,False,,15/01/2019,sroie,test,2019-01-15,True,True,True,1.0,True,none,True
+sroie/test/X00016469670,total,money,qwen4b-detailed-t0,193.00,193.00,False,,193.00,sroie,test,193.00,True,True,True,1.0,True,none,True
+sroie/test/X00016469670,total,money,qwen4b-detailed-t08,193.00,193.00,False,,193.00,sroie,test,193.00,True,True,True,1.0,True,none,True
+sroie/test/X00016469670,total,money,qwen4b-terse-t0,"{""total"": 193.00}",193.00,False,,193.00,sroie,test,193.00,True,True,True,1.0,True,none,True
+sroie/test/X00016469671,address,address,qwen4b-detailed-t0,NO 2 & 4 BANDAR SERI ALAM 81750 MASAI,no 2 and 4 bdr seri alam 81750 masai,False,,"NO 2 & 4, JALAN BAYU 4, BANDAR SERI ALAM, 81750 MASAI, JOHOR",sroie,test,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,True,False,0.75,False,wrong_value,False
+sroie/test/X00016469671,address,address,qwen4b-detailed-t08,,,True,,"NO 2 & 4, JALAN BAYU 4, BANDAR SERI ALAM, 81750 MASAI, JOHOR",sroie,test,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,False,False,0.0,False,miss,False
+sroie/test/X00016469671,address,address,qwen4b-terse-t0,co,co,False,,"NO 2 & 4, JALAN BAYU 4, BANDAR SERI ALAM, 81750 MASAI, JOHOR",sroie,test,no 2 and 4 jln bayu 4 bdr seri alam 81750 masai johor,True,True,False,0.0,False,wrong_value,False
+sroie/test/X00016469671,company,org,qwen4b-detailed-t0,OJC MARKETING SDN BHD,ojc marketing,False,,OJC MARKETING SDN BHD,sroie,test,ojc marketing,True,True,True,1.0,True,none,True
+sroie/test/X00016469671,company,org,qwen4b-detailed-t08,,,True,,OJC MARKETING SDN BHD,sroie,test,ojc marketing,True,False,False,0.0,False,miss,False
+sroie/test/X00016469671,company,org,qwen4b-terse-t0,coan,coan,False,,OJC MARKETING SDN BHD,sroie,test,ojc marketing,True,True,False,0.0,False,wrong_value,False
+sroie/test/X00016469671,date,date,qwen4b-detailed-t0,02/01/2019,2019-01-02,False,,02/01/2019,sroie,test,2019-01-02,True,True,True,1.0,True,none,True
+sroie/test/X00016469671,date,date,qwen4b-detailed-t08,,,True,,02/01/2019,sroie,test,2019-01-02,True,False,False,0.0,False,miss,False
+sroie/test/X00016469671,date,date,qwen4b-terse-t0,co,,True,,02/01/2019,sroie,test,2019-01-02,True,False,False,0.0,False,miss,False
+sroie/test/X00016469671,total,money,qwen4b-detailed-t0,170.00,170.00,False,,170.00,sroie,test,170.00,True,True,True,1.0,True,none,True
+sroie/test/X00016469671,total,money,qwen4b-detailed-t08,"-//ivalency, never inferred a plausible value, and never carry a value over from a different field.",,True,,170.00,sroie,test,170.00,True,False,False,0.0,False,miss,False
+sroie/test/X00016469671,total,money,qwen4b-terse-t0,co,,True,,170.00,sroie,test,170.00,True,False,False,0.0,False,miss,False
+sroie/test/X51005200931,address,address,qwen4b-detailed-t0,NO.59 JALAN PERMAS 9/5 BANDAR BARU PERMAS JAYA 81750 JOHOR BAHRU,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,False,,NO.59 JALAN PERMAS 9/5 BANDAR BARU PERMAS JAYA 81750 JOHOR BAHRU,sroie,test,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,True,True,1.0,True,none,True
+sroie/test/X51005200931,address,address,qwen4b-detailed-t08,Company name,company name,False,,NO.59 JALAN PERMAS 9/5 BANDAR BARU PERMAS JAYA 81750 JOHOR BAHRU,sroie,test,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005200931,address,address,qwen4b-terse-t0,,,True,,NO.59 JALAN PERMAS 9/5 BANDAR BARU PERMAS JAYA 81750 JOHOR BAHRU,sroie,test,no 59 jln permas 9 5 bdr baru permas jaya 81750 johor bahru,True,False,False,0.0,False,miss,False
+sroie/test/X51005200931,company,org,qwen4b-detailed-t0,GOGIANT ENGINEERING (M) SDN BHD,gogiant engineering m,False,,PERNIAGAAN ZHENG HUI,sroie,test,perniagaan zheng hui,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005200931,company,org,qwen4b-detailed-t08,].   <think>:-: Company name::,think company name,False,,PERNIAGAAN ZHENG HUI,sroie,test,perniagaan zheng hui,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005200931,company,org,qwen4b-terse-t0,,,True,,PERNIAGAAN ZHENG HUI,sroie,test,perniagaan zheng hui,True,False,False,0.0,False,miss,False
+sroie/test/X51005200931,date,date,qwen4b-detailed-t0,09/02/2018,2018-02-09,False,,09/02/2018,sroie,test,2018-02-09,True,True,True,1.0,True,none,True
+sroie/test/X51005200931,date,date,qwen4b-detailed-t08,]:,,True,,09/02/2018,sroie,test,2018-02-09,True,False,False,0.0,False,miss,False
+sroie/test/X51005200931,date,date,qwen4b-terse-t0,,,True,,09/02/2018,sroie,test,2018-02-09,True,False,False,0.0,False,miss,False
+sroie/test/X51005200931,total,money,qwen4b-detailed-t0,436.20,436.20,False,,436.20,sroie,test,436.20,True,True,True,1.0,True,none,True
+sroie/test/X51005200931,total,money,qwen4b-detailed-t08,Total amount,,True,,436.20,sroie,test,436.20,True,False,False,0.0,False,miss,False
+sroie/test/X51005200931,total,money,qwen4b-terse-t0,,,True,,436.20,sroie,test,436.20,True,False,False,0.0,False,miss,False
+sroie/test/X51005230605,address,address,qwen4b-detailed-t0,KM 458.4 BKT LANJAN UTARA L/RAYA UTARA SELATAN 47000 SUNGAI BUL,km 458 4 bkt lanjan utara l raya utara selatan 47000 sungai bul,False,,"KM 458.4 BKT LANJAN UTARA, L/RAYA UTARA SELATAN,SG BULOH 47000 SUNGAI BUL",sroie,test,km 458 4 bkt lanjan utara l raya utara selatan sg buloh 47000 sungai bul,True,True,False,0.8571428571428571,True,wrong_value,False
+sroie/test/X51005230605,address,address,qwen4b-terse-t0,,,True,,"KM 458.4 BKT LANJAN UTARA, L/RAYA UTARA SELATAN,SG BULOH 47000 SUNGAI BUL",sroie,test,km 458 4 bkt lanjan utara l raya utara selatan sg buloh 47000 sungai bul,True,False,False,0.0,False,miss,False
+sroie/test/X51005230605,company,org,qwen4b-detailed-t0,PETRON BKT LANJAN SB,petron bkt lanjan sb,False,,PETRON BKT LANJAN SB,sroie,test,petron bkt lanjan sb,True,True,True,1.0,True,none,True
+sroie/test/X51005230605,company,org,qwen4b-terse-t0,,,True,,PETRON BKT LANJAN SB,sroie,test,petron bkt lanjan sb,True,False,False,0.0,False,miss,False
+sroie/test/X51005230605,date,date,qwen4b-detailed-t0,01/02/2018,2018-02-01,False,,01/02/2018,sroie,test,2018-02-01,True,True,True,1.0,True,none,True
+sroie/test/X51005230605,date,date,qwen4b-terse-t0,,,True,,01/02/2018,sroie,test,2018-02-01,True,False,False,0.0,False,miss,False
+sroie/test/X51005230605,total,money,qwen4b-detailed-t0,4.90,4.90,False,,4.90,sroie,test,4.90,True,True,True,1.0,True,none,True
+sroie/test/X51005230605,total,money,qwen4b-terse-t0,,,True,,4.90,sroie,test,4.90,True,False,False,0.0,False,miss,False
+sroie/test/X51005230616,address,address,qwen4b-detailed-t0,LEVEL 6 NO.3 SELANGOR,level 6 no 3 selangor,False,,"LEVEL 6, BANGUNAN TH, DAMANSARA UPTOWN3 NO.3, JALAN SS21/39,47400 PETALING JAYA SELANGOR",sroie,test,level 6 bangunan th damansara uptown3 no 3 jln ss21 39 47400 petaling jaya selangor,True,True,False,0.3333333333333333,False,wrong_value,False
+sroie/test/X51005230616,address,address,qwen4b-detailed-t08,"6101 N. 28th St, Phoenix, AZ 85017, USA",6101 n 28th st phoenix az 85017 usa,False,,"LEVEL 6, BANGUNAN TH, DAMANSARA UPTOWN3 NO.3, JALAN SS21/39,47400 PETALING JAYA SELANGOR",sroie,test,level 6 bangunan th damansara uptown3 no 3 jln ss21 39 47400 petaling jaya selangor,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005230616,company,org,qwen4b-detailed-t0,GERBANG ALAF RESTAURANTS SDN BHD,gerbang alaf restaurants,False,,GERBANG ALAF RESTAURANTS SDN BHD,sroie,test,gerbang alaf restaurants,True,True,True,1.0,True,none,True
+sroie/test/X51005230616,company,org,qwen4b-detailed-t08,Zara,zara,False,,GERBANG ALAF RESTAURANTS SDN BHD,sroie,test,gerbang alaf restaurants,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005230616,date,date,qwen4b-detailed-t0,18/01/2018,2018-01-18,False,,18/01/2018,sroie,test,2018-01-18,True,True,True,1.0,True,none,True
+sroie/test/X51005230616,date,date,qwen4b-detailed-t08,2024-09-16,2024-09-16,False,,18/01/2018,sroie,test,2018-01-18,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005230616,total,money,qwen4b-detailed-t0,38.90,38.90,False,,38.90,sroie,test,38.90,True,True,True,1.0,True,none,True
+sroie/test/X51005230616,total,money,qwen4b-detailed-t08,22.89,22.89,False,,38.90,sroie,test,38.90,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005230621,address,address,qwen4b-detailed-t0,LOT 13 KG BATU 30 44300 BTG KALI,lot 13 kg batu 30 44300 btg kali,False,,"LOT 13, JALAN IPOH, KG BATU 30, ULU YAM LAMA 44300 BTG KALI, SELANGOR.",sroie,test,lot 13 jln ipoh kg batu 30 ulu yam lama 44300 btg kali selangor,True,True,False,0.5714285714285714,False,wrong_value,False
+sroie/test/X51005230621,address,address,qwen4b-detailed-t08,,,True,,"LOT 13, JALAN IPOH, KG BATU 30, ULU YAM LAMA 44300 BTG KALI, SELANGOR.",sroie,test,lot 13 jln ipoh kg batu 30 ulu yam lama 44300 btg kali selangor,True,False,False,0.0,False,miss,False
+sroie/test/X51005230621,address,address,qwen4b-terse-t0,neney,neney,False,,"LOT 13, JALAN IPOH, KG BATU 30, ULU YAM LAMA 44300 BTG KALI, SELANGOR.",sroie,test,lot 13 jln ipoh kg batu 30 ulu yam lama 44300 btg kali selangor,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005230621,company,org,qwen4b-detailed-t0,SIN LIANHAP SDN BHD,sin lianhap,False,,SIN LIANHAP SDN BHD,sroie,test,sin lianhap,True,True,True,1.0,True,none,True
+sroie/test/X51005230621,company,org,qwen4b-detailed-t08,,,True,,SIN LIANHAP SDN BHD,sroie,test,sin lianhap,True,False,False,0.0,False,miss,False
+sroie/test/X51005230621,company,org,qwen4b-terse-t0,coconey,coconey,False,,SIN LIANHAP SDN BHD,sroie,test,sin lianhap,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005230621,date,date,qwen4b-detailed-t0,05/02/2018,2018-02-05,False,,05/02/2018,sroie,test,2018-02-05,True,True,True,1.0,True,none,True
+sroie/test/X51005230621,date,date,qwen4b-detailed-t08,:,,True,,05/02/2018,sroie,test,2018-02-05,True,False,False,0.0,False,miss,False
+sroie/test/X51005230621,date,date,qwen4b-terse-t0,co,,True,,05/02/2018,sroie,test,2018-02-05,True,False,False,0.0,False,miss,False
+sroie/test/X51005230621,total,money,qwen4b-detailed-t0,7.30,7.30,False,,7.30,sroie,test,7.30,True,True,True,1.0,True,none,True
+sroie/test/X51005230621,total,money,qwen4b-detailed-t08,17.96,17.96,False,,7.30,sroie,test,7.30,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005230621,total,money,qwen4b-terse-t0,co,,True,,7.30,sroie,test,7.30,True,False,False,0.0,False,miss,False
+sroie/test/X51005230648,address,address,qwen4b-detailed-t0,47 BANDAR UTAMA BATANG KALI 44300 BATANG KALI,47 bdr utama batang kali 44300 batang kali,False,,"47, JALAN MERANTI 1, SEK. 3, BANDAR UTAMA BATANG KALI, 44300 BATANG KALI, SELANGOR.",sroie,test,47 jln meranti 1 sek 3 bdr utama batang kali 44300 batang kali selangor,True,True,False,0.5,False,wrong_value,False
+sroie/test/X51005230648,address,address,qwen4b-detailed-t08,,,True,,"47, JALAN MERANTI 1, SEK. 3, BANDAR UTAMA BATANG KALI, 44300 BATANG KALI, SELANGOR.",sroie,test,47 jln meranti 1 sek 3 bdr utama batang kali 44300 batang kali selangor,True,False,False,0.0,False,miss,False
+sroie/test/X51005230648,address,address,qwen4b-terse-t0,"d,",d,False,,"47, JALAN MERANTI 1, SEK. 3, BANDAR UTAMA BATANG KALI, 44300 BATANG KALI, SELANGOR.",sroie,test,47 jln meranti 1 sek 3 bdr utama batang kali 44300 batang kali selangor,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005230648,company,org,qwen4b-detailed-t0,CROSS CHANNEL NETWORK SDN. BHD.,cross channel network,False,,CROSS CHANNEL NETWORK SDN. BHD.,sroie,test,cross channel network,True,True,True,1.0,True,none,True
+sroie/test/X51005230648,company,org,qwen4b-detailed-t08,,,True,,CROSS CHANNEL NETWORK SDN. BHD.,sroie,test,cross channel network,True,False,False,0.0,False,miss,False
+sroie/test/X51005230648,company,org,qwen4b-terse-t0,c,c,False,,CROSS CHANNEL NETWORK SDN. BHD.,sroie,test,cross channel network,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005230648,date,date,qwen4b-detailed-t0,29/01/2018,2018-01-29,False,,29/01/2018,sroie,test,2018-01-29,True,True,True,1.0,True,none,True
+sroie/test/X51005230648,date,date,qwen4b-detailed-t08,,,True,,29/01/2018,sroie,test,2018-01-29,True,False,False,0.0,False,miss,False
+sroie/test/X51005230648,date,date,qwen4b-terse-t0,"ime,",,True,,29/01/2018,sroie,test,2018-01-29,True,False,False,0.0,False,miss,False
+sroie/test/X51005230648,total,money,qwen4b-detailed-t0,6.36,6.36,False,,6.35,sroie,test,6.35,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005230648,total,money,qwen4b-detailed-t08,"/成iple槏艾艾ipleiple艾分享两ఏ成衣/币//////////ర은ат. (_њ_ is은은了은ეی是_。..。_.은т.。了_. (ы了уж =.ी्(..。 (.ू..._.. 은 (。ू.૯._/_艺ultь.।।ू।ы_.უ.უат了/_.ू.ыु\.амьू..ивूू은.ат은аты\uыू。을__ам.ू_।.은_..ूучुам.ыू은ू是 is(૟을__...ू।은. =ив을_.ू_्ू은.은.ू 은_..।ат_ات_은ив(__宇,公司 a a        I",,True,,6.35,sroie,test,6.35,True,False,False,0.0,False,miss,False
+sroie/test/X51005230648,total,money,qwen4b-terse-t0,",",,True,,6.35,sroie,test,6.35,True,False,False,0.0,False,miss,False
+sroie/test/X51005230657,address,address,qwen4b-detailed-t0,47 BANDAR UTAMA BATANG KALI 44300 BATANG KALI,47 bdr utama batang kali 44300 batang kali,False,,"47, JALAN MERANTI 1, SEK. 3, BANDAR UTAMA BATANG KALI, 44300 BATANG KALI, SELANGOR.",sroie,test,47 jln meranti 1 sek 3 bdr utama batang kali 44300 batang kali selangor,True,True,False,0.5,False,wrong_value,False
+sroie/test/X51005230657,address,address,qwen4b-detailed-t08,,,True,,"47, JALAN MERANTI 1, SEK. 3, BANDAR UTAMA BATANG KALI, 44300 BATANG KALI, SELANGOR.",sroie,test,47 jln meranti 1 sek 3 bdr utama batang kali 44300 batang kali selangor,True,False,False,0.0,False,miss,False
+sroie/test/X51005230657,address,address,qwen4b-terse-t0,BANDAR UTAMA BATANG KALI,bdr utama batang kali,False,,"47, JALAN MERANTI 1, SEK. 3, BANDAR UTAMA BATANG KALI, 44300 BATANG KALI, SELANGOR.",sroie,test,47 jln meranti 1 sek 3 bdr utama batang kali 44300 batang kali selangor,True,True,False,0.3333333333333333,False,wrong_value,False
+sroie/test/X51005230657,company,org,qwen4b-detailed-t0,CROSS CHANNEL NETWORK SDN. BHD.,cross channel network,False,,CROSS CHANNEL NETWORK SDN. BHD.,sroie,test,cross channel network,True,True,True,1.0,True,none,True
+sroie/test/X51005230657,company,org,qwen4b-detailed-t08,,,True,,CROSS CHANNEL NETWORK SDN. BHD.,sroie,test,cross channel network,True,False,False,0.0,False,miss,False
+sroie/test/X51005230657,company,org,qwen4b-terse-t0,CROSS CHANNEL NETWORK SDN. BHD.,cross channel network,False,,CROSS CHANNEL NETWORK SDN. BHD.,sroie,test,cross channel network,True,True,True,1.0,True,none,True
+sroie/test/X51005230657,date,date,qwen4b-detailed-t0,31/12/2017,2017-12-31,False,,31/12/2017,sroie,test,2017-12-31,True,True,True,1.0,True,none,True
+sroie/test/X51005230657,date,date,qwen4b-detailed-t08,,,True,,31/12/2017,sroie,test,2017-12-31,True,False,False,0.0,False,miss,False
+sroie/test/X51005230657,date,date,qwen4b-terse-t0,31/12/2017,2017-12-31,False,,31/12/2017,sroie,test,2017-12-31,True,True,True,1.0,True,none,True
+sroie/test/X51005230657,total,money,qwen4b-detailed-t0,7.95,7.95,False,,7.95,sroie,test,7.95,True,True,True,1.0,True,none,True
+sroie/test/X51005230657,total,money,qwen4b-detailed-t08,,,True,,7.95,sroie,test,7.95,True,False,False,0.0,False,miss,False
+sroie/test/X51005230657,total,money,qwen4b-terse-t0,7.95,7.95,False,,7.95,sroie,test,7.95,True,True,True,1.0,True,none,True
+sroie/test/X51005230659,address,address,qwen4b-detailed-t0,NO. 5-7 SEKYSEN 4 BATANG KALI,no 5 7 sekysen 4 batang kali,False,,"NO. 5-7, JALAN MAHAGONI 7/1, SEKYSEN 4, BANDAR UTAMA, 44300 BATANG KALI, SELANGOR.",sroie,test,no 5 7 jln mahagoni 7 1 sekysen 4 bdr utama 44300 batang kali selangor,True,True,False,0.5,False,wrong_value,False
+sroie/test/X51005230659,address,address,qwen4b-terse-t0,,,True,,"NO. 5-7, JALAN MAHAGONI 7/1, SEKYSEN 4, BANDAR UTAMA, 44300 BATANG KALI, SELANGOR.",sroie,test,no 5 7 jln mahagoni 7 1 sekysen 4 bdr utama 44300 batang kali selangor,True,False,False,0.0,False,miss,False
+sroie/test/X51005230659,company,org,qwen4b-detailed-t0,SWC ENTERPRISE SDN BHD,swc enterprise,False,,SWC ENTERPRISE SDN BHD,sroie,test,swc enterprise,True,True,True,1.0,True,none,True
+sroie/test/X51005230659,company,org,qwen4b-terse-t0,,,True,,SWC ENTERPRISE SDN BHD,sroie,test,swc enterprise,True,False,False,0.0,False,miss,False
+sroie/test/X51005230659,date,date,qwen4b-detailed-t0,08/01/2018,2018-01-08,False,,08/01/2018,sroie,test,2018-01-08,True,True,True,1.0,True,none,True
+sroie/test/X51005230659,date,date,qwen4b-terse-t0,,,True,,08/01/2018,sroie,test,2018-01-08,True,False,False,0.0,False,miss,False
+sroie/test/X51005230659,total,money,qwen4b-detailed-t0,8.00,8.00,False,,8.00,sroie,test,8.00,True,True,True,1.0,True,none,True
+sroie/test/X51005230659,total,money,qwen4b-terse-t0,,,True,,8.00,sroie,test,8.00,True,False,False,0.0,False,miss,False
+sroie/test/X51005268275,address,address,qwen4b-detailed-t0,:  278.80,278 80,False,,"NO: 28, JALAN ASTANA 1C, BANDAR BUKIT RAJA, 41050 KLANG SELANGOR D.E, MALAYSIA",sroie,test,no 28 jln astana 1c bdr bukit raja 41050 klang selangor d e malaysia,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005268275,address,address,qwen4b-detailed-t08,BANDAR BUKIT RAJA,bdr bukit raja,False,,"NO: 28, JALAN ASTANA 1C, BANDAR BUKIT RAJA, 41050 KLANG SELANGOR D.E, MALAYSIA",sroie,test,no 28 jln astana 1c bdr bukit raja 41050 klang selangor d e malaysia,True,True,False,0.21428571428571427,False,wrong_value,False
+sroie/test/X51005268275,address,address,qwen4b-terse-t0,)   32,32,False,,"NO: 28, JALAN ASTANA 1C, BANDAR BUKIT RAJA, 41050 KLANG SELANGOR D.E, MALAYSIA",sroie,test,no 28 jln astana 1c bdr bukit raja 41050 klang selangor d e malaysia,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005268275,company,org,qwen4b-detailed-t0,,,True,,LIGHTROOM GALLERY SDN BHD,sroie,test,lightroom gallery,True,False,False,0.0,False,miss,False
+sroie/test/X51005268275,company,org,qwen4b-detailed-t08,LIGHTROOM GALLERY SDN BHD,lightroom gallery,False,,LIGHTROOM GALLERY SDN BHD,sroie,test,lightroom gallery,True,True,True,1.0,True,none,True
+sroie/test/X51005268275,company,org,qwen4b-terse-t0,)   332,332,False,,LIGHTROOM GALLERY SDN BHD,sroie,test,lightroom gallery,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005268275,date,date,qwen4b-detailed-t0,>  278.80,,True,,20/11/2017,sroie,test,2017-11-20,True,False,False,0.0,False,miss,False
+sroie/test/X51005268275,date,date,qwen4b-detailed-t08,20/11/2017,2017-11-20,False,,20/11/2017,sroie,test,2017-11-20,True,True,True,1.0,True,none,True
+sroie/test/X51005268275,date,date,qwen4b-terse-t0,d,,True,,20/11/2017,sroie,test,2017-11-20,True,False,False,0.0,False,miss,False
+sroie/test/X51005268275,total,money,qwen4b-detailed-t0,:  278.80,278.80,False,,278.80,sroie,test,278.80,True,True,True,1.0,True,none,True
+sroie/test/X51005268275,total,money,qwen4b-detailed-t08,278.80,278.80,False,,278.80,sroie,test,278.80,True,True,True,1.0,True,none,True
+sroie/test/X51005268275,total,money,qwen4b-terse-t0,tt:,,True,,278.80,sroie,test,278.80,True,False,False,0.0,False,miss,False
+sroie/test/X51005268408,address,address,qwen4b-detailed-t0,"123 Main St, City, State 12345",123 main st city state 12345,False,,"LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1413-SETIA ALAM 2",sroie,test,lot p t 2811 jln angsa tmn berkeley 41150 klang selangor 1413 setia alam 2,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005268408,address,address,qwen4b-detailed-t08,;出去ادیادیাত্র出去ادی versusادی出去 under出去出去ایل现象完全连出去ادی experienced距离ایلیر去烦恼,versus under experienced,False,,"LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1413-SETIA ALAM 2",sroie,test,lot p t 2811 jln angsa tmn berkeley 41150 klang selangor 1413 setia alam 2,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005268408,address,address,qwen4b-terse-t0,companypp,companypp,False,,"LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1413-SETIA ALAM 2",sroie,test,lot p t 2811 jln angsa tmn berkeley 41150 klang selangor 1413 setia alam 2,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005268408,company,org,qwen4b-detailed-t0,Merchant,merchant,False,,99 SPEED MART S/B,sroie,test,99 speed mart s b,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005268408,company,org,qwen4b-detailed-t08,,,True,,99 SPEED MART S/B,sroie,test,99 speed mart s b,True,False,False,0.0,False,miss,False
+sroie/test/X51005268408,company,org,qwen4b-terse-t0,::company pp,company pp,False,,99 SPEED MART S/B,sroie,test,99 speed mart s b,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005268408,date,date,qwen4b-detailed-t0,2023-10-15,2023-10-15,False,,20-11-17,sroie,test,2017-11-20,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005268408,date,date,qwen4b-detailed-t08,,,True,,20-11-17,sroie,test,2017-11-20,True,False,False,0.0,False,miss,False
+sroie/test/X51005268408,date,date,qwen4b-terse-t0,:companypp,,True,,20-11-17,sroie,test,2017-11-20,True,False,False,0.0,False,miss,False
+sroie/test/X51005268408,total,money,qwen4b-detailed-t0,123.45,123.45,False,,169.80,sroie,test,169.80,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005268408,total,money,qwen4b-detailed-t08,"::ib>>..ib\.
+:괝:):\ company.:::ib.)::
+...:"":"":
+."":ib>:-):.:. companyib'):.): -)::\::: company: \n-.-.: "":.: company
+>)::. \>):.-.::.::.. (
+툪ch-:ib::>>:: (':)::):"":. \:ib.:>\n::ib:....':. capital.-fect-.>'"":: ->.::>.'::-:ib.\uibib):'_NOW.   in ( ( This      This   in   in  The in出去 of the office..... addresses. The The The The The",,True,,169.80,sroie,test,169.80,True,False,False,0.0,False,miss,False
+sroie/test/X51005268408,total,money,qwen4b-terse-t0,company,,True,,169.80,sroie,test,169.80,True,False,False,0.0,False,miss,False
+sroie/test/X51005288570,address,address,qwen4b-detailed-t0,# <think> here here here is the reasoning for the final answer. The The The2023-10-15..,think here here here is the reasoning for the final answer the the the2023 10 15,False,,"RIVERWALK VILLAGE BATU 3, JALAN IPOH 51200 KL.",sroie,test,riverwalk village batu 3 jln ipoh 51200 kl,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005288570,address,address,qwen4b-detailed-t08,123 Main St,123 main st,False,,"RIVERWALK VILLAGE BATU 3, JALAN IPOH 51200 KL.",sroie,test,riverwalk village batu 3 jln ipoh 51200 kl,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005288570,address,address,qwen4b-terse-t0,n,n,False,,"RIVERWALK VILLAGE BATU 3, JALAN IPOH 51200 KL.",sroie,test,riverwalk village batu 3 jln ipoh 51200 kl,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005288570,company,org,qwen4b-detailed-t0,Merchant,merchant,False,,SECURE PARKING CORPORATION S/B,sroie,test,secure parking corporation s b,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005288570,company,org,qwen4b-detailed-t08,merchant,merchant,False,,SECURE PARKING CORPORATION S/B,sroie,test,secure parking corporation s b,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005288570,company,org,qwen4b-terse-t0,a,a,False,,SECURE PARKING CORPORATION S/B,sroie,test,secure parking corporation s b,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005288570,date,date,qwen4b-detailed-t0,2023-10-15,2023-10-15,False,,23.03.18,sroie,test,2018-03-23,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005288570,date,date,qwen4b-detailed-t08,2023-10-15,2023-10-15,False,,23.03.18,sroie,test,2018-03-23,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005288570,date,date,qwen4b-terse-t0,a,,True,,23.03.18,sroie,test,2018-03-23,True,False,False,0.0,False,miss,False
+sroie/test/X51005288570,total,money,qwen4b-detailed-t0,150.00,150.00,False,,1.00,sroie,test,1.00,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005288570,total,money,qwen4b-detailed-t08,1500,1500.00,False,,1.00,sroie,test,1.00,True,True,False,0.0,False,wrong_value,False
+sroie/test/X51005288570,total,money,qwen4b-terse-t0,{,,True,,1.00,sroie,test,1.00,True,False,False,0.0,False,miss,False

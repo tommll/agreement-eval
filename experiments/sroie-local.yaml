@@ -1,0 +1,87 @@
+# SROIE receipts extracted by LOCAL models via llama.cpp
+# (~/personal/projects/inference_pipeline), no API key, no data leaving the box.
+#
+# Start the server first:
+#   scripts/serve_local.sh qwen            # port 8080, Qwen3.5-4B-Q4_K_M
+#   scripts/serve_local.sh deepseek 8081   # optional second model, port 8081
+#
+# Rater axes here are model, prompt, and *sampling* - local models accept
+# temperature, so "same weights, different sample" becomes a usable third axis
+# (and the one teams most often mistake for an independent second opinion).
+#
+# Budget: a 4B Q4 model on this CPU runs ~23 tok/s prefill and ~5 tok/s decode,
+# so one receipt is ~25 s per rater. 12 receipts x 3 raters ~= 15 minutes.
+run_id: sroie-local-v1
+dataset: sroie
+schema: sroie
+split: test
+limit: 12
+# Measured, not guessed: the server offers 4 slots, but 3 concurrent decodes on
+# this CPU dropped per-stream decode from 4.5 to 0.8 tok/s - worse in total than
+# running them one at a time. Local serving is bandwidth-bound; slots do not
+# make it parallel.
+concurrency: 1
+notes: "Local llama.cpp raters (Qwen3.5-4B Q4_K_M), OCR-text input"
+
+ingest:
+  source: api
+  download_images: false
+
+configs:
+  - id: qwen4b-detailed-t0
+    provider: llamacpp
+    model: Qwen3.5-4B-Q4_K_M
+    prompt: detailed
+    input_mode: text
+    effort: null            # not an API concept locally; sampling lives in params
+    max_tokens: 400
+    params: {base_url: "http://localhost:8080/v1", temperature: 0.0, seed: 1}
+
+  - id: qwen4b-terse-t0
+    provider: llamacpp
+    model: Qwen3.5-4B-Q4_K_M
+    prompt: terse
+    input_mode: text
+    effort: null
+    max_tokens: 400
+    params: {base_url: "http://localhost:8080/v1", temperature: 0.0, seed: 1}
+
+  # Same weights, same prompt family, different sample. If agreement means
+  # "independent confirmation", this rater is the control that shows it does not.
+  - id: qwen4b-detailed-t08
+    provider: llamacpp
+    model: Qwen3.5-4B-Q4_K_M
+    prompt: detailed
+    input_mode: text
+    effort: null
+    max_tokens: 400
+    params: {base_url: "http://localhost:8080/v1", temperature: 0.8, top_p: 0.95, seed: 7}
+
+  # A genuinely different model. Start it on 8081 first; `extract` resumes, so
+  # adding this rater later only runs the calls it is missing.
+  # - id: deepseek-lite-detailed-t0
+  #   provider: llamacpp
+  #   model: DeepSeek-Coder-V2-Lite-IQ4_XS
+  #   prompt: detailed
+  #   input_mode: text
+  #   effort: null
+  #   max_tokens: 400
+  #   params: {base_url: "http://localhost:8081/v1", temperature: 0.0, seed: 1}
+
+# Measured, not assumed: `agreement-eval judge --check` scores this judge on
+# controls with known answers. Qwen3.5-4B got identical strings right 50% of the
+# time and merged unrelated values 50% of the time - so it is off here, and the
+# analysis runs on exact match alone. Point `model`/`provider` at something
+# larger (DeepSeek-Coder-V2-Lite on 8081, or claude-opus-5) and re-check before
+# turning it back on.
+judge:
+  enabled: false
+  provider: llamacpp
+  model: Qwen3.5-4B-Q4_K_M
+  effort: null
+  max_tokens: 600
+  batch_size: 4           # local decode is ~4 tok/s; a long batch is a long wait
+  include_rationale: false  # free text is where a 4B judge degenerates
+  only_disagreements: true
+  judge_gold: true
+  params: {base_url: "http://localhost:8080/v1", temperature: 0.0, seed: 1}

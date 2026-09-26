@@ -1,0 +1,9 @@
+method,n,accuracy,acc_populated,acc_null
+dawid_skene_binary (null/populated only),48,1.0,1.0,
+majority_vote (null/populated only),48,0.7916666666666666,0.7916666666666666,
+oracle: any config correct,48,0.6041666666666666,0.6041666666666666,
+single:qwen4b-detailed-t0,48,0.5625,0.5625,
+dawid_skene_one_coin,48,0.5625,0.5625,
+majority_vote,48,0.3125,0.3125,
+single:qwen4b-detailed-t08,40,0.15,0.15,
+single:qwen4b-terse-t0,44,0.11363636363636363,0.11363636363636363,

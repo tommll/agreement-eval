@@ -1,0 +1,5 @@
+field,n_items,gold_populated_rate,unanimity_rate,p_correct_when_unanimous,p_correct_when_split,base_rate,auc
+address,12,1.0,0.0,,0.8333333333333334,0.8333333333333334,0.95
+company,12,1.0,0.6666666666666666,1.0,0.75,0.9166666666666666,0.9545454545454546
+date,12,1.0,1.0,1.0,,1.0,
+total,12,1.0,0.5,1.0,1.0,1.0,

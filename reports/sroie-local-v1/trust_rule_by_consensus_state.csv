@@ -1,0 +1,4 @@
+split,rule,n_items,coverage,p_correct_when_rule_fires,ci_low,ci_high,p_correct_when_rule_does_not_fire,base_rate,lift_over_base,errors_per_1000_accepted,errors_missed,errors_caught
+all,unanimous,48,0.041666666666666664,1.0,0.34237195288961925,1.0,0.2826086956521739,0.3125,3.2,0.0,0,33
+consensus_populated=True,unanimous,38,0.05263157894736842,1.0,0.34237195288961925,1.0,0.3611111111111111,0.39473684210526316,2.533333333333333,0.0,0,23
+consensus_populated=False,unanimous,10,0.0,,,,0.0,0.0,,,0,10

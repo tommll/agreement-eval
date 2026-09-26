@@ -1,0 +1,4 @@
+,qwen4b-detailed-t0,qwen4b-detailed-t08,qwen4b-terse-t0
+qwen4b-detailed-t0,1.0,0.175,0.13636363636363635
+qwen4b-detailed-t08,0.175,1.0,0.3055555555555556
+qwen4b-terse-t0,0.13636363636363635,0.3055555555555556,1.0

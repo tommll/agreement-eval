@@ -1,0 +1,4 @@
+config_id,ds_estimated_reliability,true_accuracy
+qwen4b-detailed-t0,0.999,0.5625
+qwen4b-detailed-t08,0.1751758235088122,0.15
+qwen4b-terse-t0,0.13647896006306895,0.11363636363636363

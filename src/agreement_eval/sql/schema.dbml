@@ -1,0 +1,155 @@
+// DBML version of schema.sql (agreement-vs-accuracy study)
+// Docs: https://dbml.dbdiagram.io/docs
+// schema.sql is the source of truth; keep this file in sync with it.
+
+Table documents {
+  doc_id varchar [primary key, note: 'e.g. sroie/test/X00016469670']
+  dataset varchar [not null, note: 'sroie | funsd | synthetic']
+  split varchar
+  gold jsonb [not null, note: 'Ground-truth labels: {field: string | null}. For SROIE, the HF `entities` column']
+  ocr_text text
+  image_uri varchar
+  image_path varchar
+  meta jsonb [not null, default: '{}']
+  created_at timestamptz [not null, default: `now()`]
+}
+
+Table runs {
+  run_id varchar [primary key]
+  dataset varchar [not null]
+  schema_name varchar [not null]
+  notes text
+  experiment jsonb [not null, default: '{}']
+  created_at timestamptz [not null, default: `now()`]
+}
+
+Table configs {
+  run_id varchar [not null]
+  config_id varchar [not null, note: 'One rater: model x prompt x sampling']
+  provider varchar [not null]
+  model varchar [not null]
+  prompt_variant varchar [not null]
+  input_mode varchar [not null, note: 'text | image']
+  effort varchar
+  prompt_version varchar [not null, note: 'sha1[:12] of the rendered prompt text (prompts.py version())']
+  params jsonb [not null, default: '{}']
+
+  indexes {
+    (run_id, config_id) [primary key]
+  }
+}
+
+Table extractions {
+  id bigserial [primary key]
+  run_id varchar [not null]
+  config_id varchar [not null]
+  doc_id varchar [not null]
+  status varchar [not null, note: "'ok' | 'error'"]
+  raw_output jsonb
+  error text
+  latency_ms integer
+  input_tokens integer
+  output_tokens integer
+  cost_usd numeric(12,6)
+  created_at timestamptz [not null, default: `now()`]
+
+  indexes {
+    (run_id, config_id, doc_id) [unique, note: 'One model call per (run, config, doc); makes extract resumable']
+  }
+}
+
+Table field_outputs {
+  id bigserial [primary key]
+  extraction_id bigint [not null]
+  run_id varchar [not null, note: 'Copied from extractions']
+  config_id varchar [not null, note: 'Copied from extractions']
+  doc_id varchar [not null, note: 'Copied from extractions (no FK)']
+  field varchar [not null]
+  field_type varchar [not null, note: 'text | org | address | date | money | integer | phone']
+  value_raw text
+  value_norm text [note: 'Normalized by field_type before comparison']
+  is_null boolean [not null]
+  evidence text
+
+  indexes {
+    (extraction_id, field) [unique]
+  }
+}
+
+Table judgments {
+  id bigserial [primary key]
+  run_id varchar [not null]
+  kind varchar [not null, note: "'pair' = two model outputs, 'gold' = output vs label"]
+  doc_id varchar [not null]
+  field varchar [not null]
+  left_config varchar [not null]
+  right_config varchar [not null, note: "'GOLD' when kind = 'gold'"]
+  left_value text
+  right_value text
+  equivalent boolean
+  confidence double
+  rationale text
+  judge_model varchar
+  created_at timestamptz [not null, default: `now()`]
+
+  indexes {
+    (run_id, kind, doc_id, field, left_config, right_config) [unique]
+  }
+}
+
+Table analysis_results {
+  id bigserial [primary key]
+  run_id varchar [not null]
+  name varchar [not null]
+  payload jsonb [not null]
+  created_at timestamptz [not null, default: `now()`]
+
+  indexes {
+    (run_id, name) [unique]
+  }
+}
+
+Ref run_configs: configs.run_id > runs.run_id [delete: cascade] // many-to-one
+
+Ref run_extractions: extractions.run_id > runs.run_id [delete: cascade]
+
+Ref doc_extractions: extractions.doc_id > documents.doc_id [delete: cascade]
+
+Ref extraction_fields: field_outputs.extraction_id > extractions.id [delete: cascade]
+
+Ref config_extractions: extractions.(run_id, config_id) > configs.(run_id, config_id) [delete: cascade]
+
+Ref config_fields: field_outputs.(run_id, config_id) > configs.(run_id, config_id) [delete: cascade]
+
+// Sample rows from run sroie-local-v1, receipt X00016469670.
+// Field values are real; latency, token counts and the judgment row are illustrative.
+
+Records documents(doc_id, dataset, split, gold) {
+  'sroie/test/X00016469670', 'sroie', 'test', '{"company": "OJC MARKETING SDN BHD", "date": "15/01/2019", "address": "NO 2 & 4, JALAN BAYU 4, BANDAR SERI ALAM, B1750 MASAI, JOHOR", "total": "193.00"}'
+}
+
+Records runs(run_id, dataset, schema_name, notes) {
+  'sroie-local-v1', 'sroie', 'sroie', 'Local llama.cpp raters (Qwen3.5-4B Q4_K_M), OCR-text input'
+}
+
+Records configs(run_id, config_id, provider, model, prompt_variant, input_mode, prompt_version, params) {
+  'sroie-local-v1', 'qwen4b-detailed-t0', 'llamacpp', 'Qwen3.5-4B-Q4_K_M', 'detailed', 'text', '2809109cb4d8', '{"temperature": 0.0, "seed": 1}'
+  'sroie-local-v1', 'qwen4b-terse-t0', 'llamacpp', 'Qwen3.5-4B-Q4_K_M', 'terse', 'text', 'ff97a8b4dd9f', '{"temperature": 0.0, "seed": 1}'
+}
+
+Records extractions(id, run_id, config_id, doc_id, status, latency_ms, input_tokens, output_tokens, cost_usd) {
+  1, 'sroie-local-v1', 'qwen4b-detailed-t0', 'sroie/test/X00016469670', 'ok', 65000, 590, 80, 0
+  2, 'sroie-local-v1', 'qwen4b-terse-t0', 'sroie/test/X00016469670', 'ok', 40000, 470, 60, 0
+}
+
+Records field_outputs(id, extraction_id, run_id, config_id, doc_id, field, field_type, value_raw, value_norm, is_null) {
+  1, 1, 'sroie-local-v1', 'qwen4b-detailed-t0', 'sroie/test/X00016469670', 'company', 'org', 'OJC MARKETING SDN BHD', 'ojc marketing', false
+  2, 1, 'sroie-local-v1', 'qwen4b-detailed-t0', 'sroie/test/X00016469670', 'total', 'money', '193.00', '193.00', false
+  3, 2, 'sroie-local-v1', 'qwen4b-terse-t0', 'sroie/test/X00016469670', 'company', 'org', 'THE PEAK QUARRY WORKS', 'the peak quarry works', false
+  4, 2, 'sroie-local-v1', 'qwen4b-terse-t0', 'sroie/test/X00016469670', 'address', 'address', null, null, true
+}
+
+Records judgments(id, run_id, kind, doc_id, field, left_config, right_config, left_value, right_value, equivalent, confidence) {
+  1, 'sroie-local-v1', 'pair', 'sroie/test/X00016469670', 'company', 'qwen4b-detailed-t0', 'qwen4b-terse-t0', 'OJC MARKETING SDN BHD', 'THE PEAK QUARRY WORKS', false, 0.98
+  2, 'sroie-local-v1', 'gold', 'sroie/test/X00016469670', 'company', 'qwen4b-detailed-t0', 'GOLD', 'OJC MARKETING SDN BHD', 'OJC MARKETING SDN BHD', true, 0.99
+}

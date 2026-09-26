@@ -1,0 +1,4 @@
+support_bucket,gold_populated,n,n_correct,p_correct
+0%,True,90,22,0.24444444444444444
+50%,True,36,10,0.2777777777777778
+100%,True,6,6,1.0

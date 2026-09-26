@@ -1,0 +1,75 @@
+# SROIE (ICDAR 2019 Task 3) receipts from
+# https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE
+#
+# Five raters that vary along the two axes that matter for agreement: the
+# model, and how much the prompt constrains it. Two configs share a model and
+# differ only in prompt; two share a prompt and differ only in model. That
+# lets the analysis separate "agreement because both are right" from
+# "agreement because they are the same model making the same mistake".
+#
+# Cost note: 5 configs x N documents = 5N calls. At N=100 receipts this is a
+# few dollars; start there before raising `limit`.
+run_id: sroie-v1
+dataset: sroie
+schema: sroie
+split: test
+limit: 100
+concurrency: 6
+notes: "SROIE test split, text (OCR words) input"
+
+ingest:
+  source: api            # 'parquet' downloads the full split (~215 MB) instead
+  download_images: false # set true (and add a vision config below) for image input
+
+configs:
+  - id: opus5-detailed
+    provider: anthropic
+    model: claude-opus-5
+    prompt: detailed
+    input_mode: text
+    effort: medium
+
+  - id: opus5-terse
+    provider: anthropic
+    model: claude-opus-5
+    prompt: terse
+    input_mode: text
+    effort: medium
+
+  - id: opus5-evidence
+    provider: anthropic
+    model: claude-opus-5
+    prompt: evidence
+    input_mode: text
+    effort: medium
+
+  - id: sonnet5-detailed
+    provider: anthropic
+    model: claude-sonnet-5
+    prompt: detailed
+    input_mode: text
+    effort: medium
+
+  - id: haiku45-detailed
+    provider: anthropic
+    model: claude-haiku-4-5
+    prompt: detailed
+    input_mode: text
+    effort: null          # effort is not supported on Haiku 4.5
+
+  # Vision rater. Requires `ingest.download_images: true` (or --download-images),
+  # since the HF preview image URLs expire.
+  # - id: opus5-detailed-image
+  #   provider: anthropic
+  #   model: claude-opus-5
+  #   prompt: detailed
+  #   input_mode: image
+  #   effort: medium
+
+judge:
+  enabled: true
+  model: claude-opus-5
+  effort: low
+  batch_size: 20
+  only_disagreements: true
+  judge_gold: true

@@ -1,0 +1,74 @@
+# The same 12 SROIE receipts as sroie-local.yaml, but the local model reads the
+# receipt IMAGE instead of the dataset's OCR text.
+#
+# Why: the dataset's `words` OCR drops lines the gold labels contain (street
+# names, states), so text-mode address accuracy is capped at ~1/12 no matter
+# how good the model is. Qwen3.5-4B is natively multimodal; with its vision
+# projector it reads those lines off the scan.
+#
+# Setup:
+#   agreement-eval ingest --dataset sroie --split test --limit 12 --download-images
+#   scripts/serve_local.sh qwen-vl 8082
+#
+# Budget: a receipt is ~550 image tokens at --image-max-tokens 1024, so a call
+# costs about the same as a text-mode call (~1 min on this CPU).
+run_id: sroie-local-vision-v1
+dataset: sroie
+schema: sroie
+split: test
+limit: 12
+concurrency: 1
+notes: "Local llama.cpp vision raters (Qwen3.5-4B Q4_K_M + mmproj), image input"
+
+ingest:
+  source: api
+  download_images: true
+
+configs:
+  # Image only: the prompt carries no OCR text, so every value comes from the scan.
+  - id: qwen4b-detailed-image
+    provider: llamacpp
+    model: Qwen3.5-4B-Q4_K_M
+    prompt: detailed
+    input_mode: image
+    effort: null
+    max_tokens: 400
+    params: {base_url: "http://localhost:8082/v1", temperature: 0.0, seed: 1}
+
+  # Image plus the dataset OCR: the text helps with digits, the image fills the
+  # lines the OCR dropped.
+  - id: qwen4b-detailed-both
+    provider: llamacpp
+    model: Qwen3.5-4B-Q4_K_M
+    prompt: detailed
+    input_mode: both
+    effort: null
+    max_tokens: 400
+    params: {base_url: "http://localhost:8082/v1", temperature: 0.0, seed: 1}
+
+  # A second model family on the same image-only input. Agreement between two
+  # Qwen configs can be shared blind spots; agreement with Gemma is closer to an
+  # independent second opinion. Serve with: scripts/serve_local.sh gemma4-vl 8083
+  - id: gemma4-e4b-detailed-image
+    provider: llamacpp
+    model: gemma-4-E4B-it-Q4_0
+    prompt: detailed
+    input_mode: image
+    effort: null
+    max_tokens: 400
+    params: {base_url: "http://localhost:8083/v1", temperature: 0.0, seed: 1}
+
+  # The same family at ~7x the size: does scale fix the 4B's misreadings?
+  # Serve with: scripts/serve_local.sh qwen27-vl 8084 (needs ~18 GB free).
+  # ~10 min per receipt on the laptop CPU, hence the long timeout.
+  - id: qwen27b-detailed-image
+    provider: llamacpp
+    model: Qwen3.5-27B-IQ4_XS
+    prompt: detailed
+    input_mode: image
+    effort: null
+    max_tokens: 400
+    params: {base_url: "http://localhost:8084/v1", temperature: 0.0, seed: 1, timeout: 2400}
+
+judge:
+  enabled: false

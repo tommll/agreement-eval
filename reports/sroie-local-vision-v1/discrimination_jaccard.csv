@@ -1,0 +1,5 @@
+score,split,n,base_rate,auc
+jaccard_agreement,all,48,0.9791666666666666,0.6702127659574468
+jaccard_agreement,gold_populated=True,48,0.9791666666666666,0.6702127659574468
+pairwise_agreement,all,48,0.9791666666666666,0.9042553191489362
+pairwise_agreement,gold_populated=True,48,0.9791666666666666,0.9042553191489362
