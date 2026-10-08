@@ -98,7 +98,14 @@ The same pipeline runs against a local [llama.cpp](https://github.com/ggml-org/l
 speaking the OpenAI-compatible protocol, so GGUF weights become raters alongside (or instead of)
 API models. A rater is a `(provider, model, prompt)` triple; nothing downstream knows the difference.
 
+`scripts/serve_local.sh` wraps `serve.sh` from
+[tommll/inference_pipeline](https://github.com/tommll/inference_pipeline), which holds the
+llama.cpp build and GGUF weights and the server flags tuned for this machine. Clone it next to this
+repo (or set `INFERENCE_PIPELINE` to wherever it lives) and follow its README to download the
+binary and models, which are not in git:
+
 ```bash
+git clone https://github.com/tommll/inference_pipeline ../inference_pipeline
 scripts/serve_local.sh qwen              # port 8080, Qwen3.5-4B-Q4_K_M
 .venv/bin/agreement-eval ingest   --dataset sroie --split test --limit 12
 .venv/bin/agreement-eval all --experiment experiments/sroie-local.yaml --skip-ingest
@@ -295,7 +302,7 @@ src/agreement_eval/
   metrics/          accuracy, agreement, predictive, dawid_skene
   analysis.py       builds every table; report.py / plots.py render them
 experiments/        experiment definitions (demo, sroie, sroie-local, funsd)
-scripts/            serve_local.sh - start a llama.cpp server for a local model
+scripts/            serve_local.sh - start a llama.cpp server for a local model (via inference_pipeline)
 tests/              unit tests + a Postgres integration test (skipped if no DB)
 ```
 

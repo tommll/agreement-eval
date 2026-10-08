@@ -7,11 +7,20 @@
 #   scripts/serve_local.sh qwen27-vl 8084   # Qwen3.5-27B IQ4_XS + projector (~18 GB; stop other servers first)
 #   scripts/serve_local.sh deepseek 8081    # second model, second port
 #
-# Wraps serve.sh from the inference_pipeline repo so the flags tuned for this
-# machine (thread count, context size, q8_0 KV cache) stay in one place.
+# Wraps serve.sh from https://github.com/tommll/inference_pipeline so the flags
+# tuned for this machine (thread count, context size, q8_0 KV cache) stay in one
+# place. Clone it next to this repo, or set INFERENCE_PIPELINE to its path; the
+# llama.cpp binary and GGUF weights are not in git, see that repo's README.
 set -euo pipefail
 
-PIPELINE="${INFERENCE_PIPELINE:-$HOME/personal/projects/inference_pipeline}"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+PIPELINE="${INFERENCE_PIPELINE:-$(dirname "$REPO_ROOT")/inference_pipeline}"
+[[ -x "$PIPELINE/serve.sh" ]] || {
+  echo "inference_pipeline not found at $PIPELINE" >&2
+  echo "  git clone https://github.com/tommll/inference_pipeline \"$PIPELINE\"" >&2
+  echo "  (or set INFERENCE_PIPELINE=/path/to/inference_pipeline)" >&2
+  exit 1
+}
 NAME="${1:-qwen}"
 PORT="${2:-8080}"
 

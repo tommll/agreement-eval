@@ -1,5 +1,5 @@
 # SROIE receipts extracted by LOCAL models via llama.cpp
-# (~/personal/projects/inference_pipeline), no API key, no data leaving the box.
+# (https://github.com/tommll/inference_pipeline), no API key, no data leaving the box.
 #
 # Start the server first:
 #   scripts/serve_local.sh qwen            # port 8080, Qwen3.5-4B-Q4_K_M
